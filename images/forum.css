@@ -1,0 +1,102 @@
+/* forum */
+
+.man3 {
+	background-image: url("forum/man3.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 28px;
+	height: 23px;
+	float: left;	
+}
+.posts {
+	float:left; 
+	position:relative;
+	top:-5px;
+	width: 23px;
+	height: 17px;
+	background-image: url("forum/posts.gif");
+	background-position: left 1px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #27BE14;
+	padding-left: 1px;
+	margin-left: 5px;
+}
+.foot {
+	background-image: url("forum/foot.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 15px;
+	padding-left: 15px;
+	padding-top: 2px;
+}
+.theLine {
+	border-bottom:1px dashed #e5e5e5; 
+	margin-bottom:10px; 
+	margin-top:10px; 
+	height:1px;
+}
+* html .theLine {
+	margin-top:0px; 
+}
+.gray {
+	color: #818080;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+.btn {
+	background-color: #f7f0df;
+	padding: 0px 5px 3px 5px;
+	color: #000;
+	font-size: 12px;
+}
+
+h6 {
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+	font-size: 12px;
+}
+
+
+
+.pages {
+	font-size: 12px;
+	margin: 10px 0px 10px 0px;
+}
+
+.pageActive {
+	padding: 1px 2px 1px 2px;
+	font-weight: bold;	
+	border-bottom: 2px solid #27be14;
+}
+
+.pageInactive {
+	background-color: #27be14;
+	padding: 1px 3px 1px 3px;
+}
+
+.pageInactivePre {
+	background-color: #969696;
+}
+
+.pageInactive a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#nextPage {
+	background-image: url("forum/pointer3.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 13px;
+	height: 18px; 
+}
+
+a img {
+	border: 0px;
+}

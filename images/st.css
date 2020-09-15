@@ -1,0 +1,42 @@
+#containment {
+	height: 500px;
+	width: 100%;
+	background: yellow;
+	position: relative; 
+}
+
+.input_el {
+border:0px;
+}
+ 
+#dragger {
+	
+	width: 200px;
+	background: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid blue;
+	z-index:10;
+}
+ 
+div.dropper {
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	height: 40px;
+	width: 30px;
+	background: #ff3300;
+}.writefield {
+	font-size: 12px;
+	height: 100%;
+	width: 150px;
+}
+.style1 {
+	height: 100px;
+	width: 100%;
+}
+
+.help2tb {
+	display:inline-block;
+}

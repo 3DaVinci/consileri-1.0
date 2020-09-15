@@ -1,0 +1,2964 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Консильери\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-10 00:10+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Галина <galina@3davinci.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ../../../application/views/scripts\n"
+"X-Poedit-SearchPath-1: ../../../application/controllers\n"
+"X-Poedit-SearchPath-2: ../../../dumper\n"
+"X-Poedit-SearchPath-3: ../../../incl\n"
+"X-Poedit-SearchPath-4: ../../..\n"
+
+#: ../../../application/views/scripts/smarty.c:5
+msgid ""
+"Импорт из Excel является удобным средством для заполнения базы данных "
+"клиентов. Все клиенты ипортированные через Excel добавляются в базу данных, "
+"не изменяя существующую информацию. Для того, чтобы произвести импорт "
+"выполните следующие действия:"
+msgstr ""
+"Importing your contacts from Excel is a convenient way to fill your client "
+"database. All clients imported through Excel are added to the database "
+"without changing the existing information. To import your contacts, please "
+"do the following:"
+
+#: ../../../application/views/scripts/smarty.c:8
+#, c-format
+msgid "Скачайте <a href='%url'>шаблон</a> Excel для импорта."
+msgstr "Download <a href='%url'>template</a> Excel for import."
+
+#: ../../../application/views/scripts/smarty.c:11
+msgid ""
+"Перенесите соответсвующие колонки из вашего файла в шаблон. Обязательно "
+"должна быть заполнена колонка НазваниеКомпании."
+msgstr ""
+"Transfer corresponding columns from your file into the template. You must "
+"fill the column Name of Company."
+
+#: ../../../application/views/scripts/smarty.c:14
+msgid "Закачайте ваш файл и нажмите кнопку Импорт."
+msgstr "Upload your file and press the Import button."
+
+#: ../../../application/views/scripts/smarty.c:17
+msgid "Файл:"
+msgstr "File:"
+
+#: ../../../application/views/scripts/smarty.c:20
+msgid "Менеджер, который будет вести импортируемые компании:"
+msgstr "Manager, responsible for imported companies:"
+
+#: ../../../application/views/scripts/smarty.c:23
+msgid "Импортировать данные"
+msgstr "Import data"
+
+#: ../../../application/views/scripts/smarty.c:26
+msgid ""
+"Формат CSV предназначен для резервного копирования только самой необходимой "
+"информация из базы данных (контактной данные компании и сотрудников, "
+"отсутствует история работы, метки и др.). Его можно использовать для работы "
+"с базой данных в Exel.\n"
+"Для бэкапа данных используйте формат SQL"
+msgstr ""
+"CSV format is meant for back-up copying of only the most essential "
+"information from your database (company contact details and employee data, "
+"no client history, labels etc. will be saved) You can use this format to "
+"work with the database in Excel.\n"
+"For full back-up of data please use the SQL format"
+
+#: ../../../application/views/scripts/smarty.c:29
+msgid "Экспортировать данные"
+msgstr "Export data"
+
+#: ../../../application/views/scripts/smarty.c:32
+msgid "Существующие файлы экспорта:"
+msgstr "Existing export files:"
+
+#: ../../../application/views/scripts/smarty.c:35
+msgid "Загрузить"
+msgstr "Upload"
+
+#: ../../../application/views/scripts/smarty.c:38
+msgid "Данные успешно экспортированы и доступны по адресу:"
+msgstr ""
+"Data has been successfully exported and is available at the following "
+"address:"
+
+#: ../../../application/views/scripts/smarty.c:41
+msgid "Данный раздел предназначен для управления базой данных."
+msgstr "This section is intended for managing the database."
+
+#: ../../../application/views/scripts/smarty.c:44
+msgid ""
+"При любых изменениях в системе (обновления, установка новых модулей и т.д.) "
+"обязательно производите резервное копирование данных в формат SQL."
+msgstr ""
+"When implementing any changes to the system (updates, adding of new modules "
+"etc.) always do a back-up copy of existing data into SQL format first."
+
+#: ../../../application/views/scripts/smarty.c:47
+msgid ""
+"Формат CSV предназначен для резервного копирования только самой необходимой "
+"информация из базы данных (контактной данные компании и сотрудников, "
+"отсутствует история работы, метки и др.). Его можно использовать для работы "
+"с базой данных в Excel."
+msgstr ""
+"CSV format is meant for back-up copying of only the most essential "
+"information from your database (company contact details and employee data, "
+"no client history, markers etc. will be saved) You can use this format to "
+"work with the database in Excel"
+
+#: ../../../application/views/scripts/smarty.c:50
+msgid ""
+"Востановление данных производится из формата SQL. Имейте ввиду, что после "
+"восстановления, вся информация в базе заменяется. Будьте аккуратны при "
+"использовании этой функции, чтобы не удалить последние изменения."
+msgstr ""
+"Data recovery is done from the SQL format. Please bear in mind that after "
+"recovery, all the data in the system is replaced. Please be careful when "
+"using this function, so you don't delete the latest changes of the system."
+
+#: ../../../application/views/scripts/smarty.c:53
+msgid ""
+"Импорт из Excel является удобным средством для заполнения базы данных "
+"клиентов. Все клиенты ипортированные через Excel добавляются в базу данных, "
+"не изменяя существующую информацию."
+msgstr ""
+"Importing your contacts from Excel is a convenient way to fill your client "
+"database. All clients imported through Excel are added to the database "
+"without changing of the existing information. "
+
+#: ../../../application/views/scripts/smarty.c:56
+msgid "Клиентская база"
+msgstr "Client database"
+
+#: ../../../application/views/scripts/smarty.c:59
+msgid "Экспорт в csv"
+msgstr "Export in CSV format"
+
+#: ../../../application/views/scripts/smarty.c:62
+msgid ""
+"Резервное\n"
+"копирование"
+msgstr ""
+"Back-up\n"
+"copy"
+
+#: ../../../application/views/scripts/smarty.c:65
+#: ../../../application/views/scripts/smarty.c:74
+msgid "SQL"
+msgstr "SQL"
+
+#: ../../../application/views/scripts/smarty.c:68
+msgid "CSV"
+msgstr "CSV"
+
+#: ../../../application/views/scripts/smarty.c:71
+msgid ""
+"Восстановление\n"
+"данных"
+msgstr ""
+"Data\n"
+"restoration"
+
+#: ../../../application/views/scripts/smarty.c:77
+msgid "Excel"
+msgstr "Excel"
+
+#: ../../../application/views/scripts/smarty.c:80
+msgid ""
+"Данный раздел предназначен для полного бэкапа базы данных. Мы рекомендуем  "
+"производить резервное копирование базы данных не реже одного раза в неделю. "
+"Не храните всю информацию на хостинге, делайте копии на другие надежные "
+"носители и держите их в надежном месте."
+msgstr ""
+"This section is intended for full back-up of your database. We recommend to "
+"make a back-up copy of the database at least once a week. Do not store all "
+"the information only on your hosting site, copy onto other reliable external "
+"data carriers and store in a safe place.              "
+
+#: ../../../application/views/scripts/smarty.c:83
+#: ../../../application/views/scripts/smarty.c:92
+msgid "Вы не можете загрузить данные в демо-режиме."
+msgstr "You cannot upload information in the demo version"
+
+#: ../../../application/views/scripts/smarty.c:86
+#: ../../../application/views/scripts/smarty.c:95
+msgid "Ваш браузер не поддерживает плавающие фреймы!"
+msgstr "Your browser does not permit floating frames!"
+
+#: ../../../application/views/scripts/smarty.c:89
+msgid ""
+"Внимание! После восстановления базы данных вы потеряете все изменения, "
+"сделанные с момента бэкапа!"
+msgstr ""
+"Attention! After the restoration of your database, you will lose any changes "
+"implemented after your last back-up!"
+
+#: ../../../application/views/scripts/smarty.c:98
+msgid "Восстановление пароля"
+msgstr "Password restoration"
+
+#: ../../../application/views/scripts/smarty.c:101
+msgid "Введите e-mail:"
+msgstr "Enter email:"
+
+#: ../../../application/views/scripts/smarty.c:104
+msgid "Восстановить"
+msgstr "Restore"
+
+#: ../../../application/views/scripts/smarty.c:107
+msgid "Пароль отправлен на e-mail."
+msgstr "Password sent to email."
+
+#: ../../../application/views/scripts/smarty.c:110
+msgid "Ошибка!"
+msgstr "Error!"
+
+#: ../../../application/views/scripts/smarty.c:113
+msgid "КПК версия"
+msgstr "Computer version"
+
+#: ../../../application/views/scripts/smarty.c:116
+msgid "Необходимо сменить пароль для учётной записи администратора."
+msgstr "It's necessary to change the password for the  administrator's account"
+
+#: ../../../application/views/scripts/smarty.c:119
+msgid "Внимание! Это демо-версия. Вы не сможете сохранять информацию."
+msgstr "Attention! This is a demo version. You cannot save information."
+
+#: ../../../application/views/scripts/smarty.c:122
+#, c-format
+msgid "%nickname - Консильери"
+msgstr "%nickname - Consiglieri"
+
+#: ../../../application/views/scripts/smarty.c:125
+#, c-format
+msgid "Работает %nickname"
+msgstr " %nickname is working"
+
+#: ../../../application/views/scripts/smarty.c:128
+#: ../../../application/views/scripts/smarty.c:1760
+#: ../../../application/views/scripts/smarty.c:1772
+msgid "выйти"
+msgstr "exit"
+
+#: ../../../application/views/scripts/smarty.c:131
+#, c-format
+msgid "из компании «%company»"
+msgstr "from company «%company»"
+
+#: ../../../application/views/scripts/smarty.c:134
+msgid "главная"
+msgstr "main page"
+
+#: ../../../application/views/scripts/smarty.c:137
+#: ../../../application/views/scripts/smarty.c:140
+#: ../../../application/views/scripts/smarty.c:332
+#: ../../../application/views/scripts/smarty.c:770
+#: ../../../application/views/scripts/smarty.c:1220
+#: ../../../application/views/scripts/smarty.c:1298
+#: ../../../application/views/scripts/smarty.c:1808
+#: ../../../application/views/scripts/smarty.c:1811
+#: ../../../application/views/scripts/smarty.c:1832
+#: ../../../application/views/scripts/smarty.c:1853
+#: ../../../application/views/scripts/smarty.c:1886
+#: ../../../application/views/scripts/smarty.c:1892
+#: ../../../application/views/scripts/smarty.c:1898
+msgid "Клиенты"
+msgstr "Clients"
+
+#: ../../../application/views/scripts/smarty.c:143
+#: ../../../application/views/scripts/smarty.c:146
+msgid "Журнал"
+msgstr "Journal"
+
+#: ../../../application/views/scripts/smarty.c:149
+#: ../../../application/views/scripts/smarty.c:152
+#: ../../../application/views/scripts/smarty.c:155
+#: ../../../application/views/scripts/smarty.c:158
+#: ../../../application/views/scripts/smarty.c:323
+msgid "Управление"
+msgstr "Management"
+
+#: ../../../application/views/scripts/smarty.c:161
+#: ../../../application/views/scripts/smarty.c:164
+msgid "База данных"
+msgstr "Database"
+
+#: ../../../application/views/scripts/smarty.c:167
+msgid "Главная"
+msgstr "Main page"
+
+#: ../../../application/views/scripts/smarty.c:170
+msgid "можно ввести несколько телефонов, сайтов через запятую"
+msgstr ""
+"you can enter several telephone numbers, internet sites seperated by a comma "
+
+#: ../../../application/views/scripts/smarty.c:173
+msgid ""
+"Попробуйте использовать напоминания - понравится! Во-первых, разгружает "
+"голову, во-вторых - не забудете важные вещи."
+msgstr ""
+"Try using the function reminders - you will like it! To start off with, it "
+"will save you the trouble of keeping everything in your head, and second - "
+"you will no longer forget important things."
+
+#: ../../../application/views/scripts/smarty.c:176
+msgid "Подробнее тут"
+msgstr "In more detail here"
+
+#: ../../../application/views/scripts/smarty.c:179
+msgid ""
+"Если поставить в тексте напоминания дату (формат дд.мм.гг), напоминание "
+"станет датированным и попадет в расписание. Пример: «перезвонить по поводу "
+"предложения 12.08.08»."
+msgstr ""
+"If you add a date into the text (format dd.mm.yy), your reminder will be "
+"dated and added to the calendar. Example: \"call regarding offer 12.08.10\"."
+
+#: ../../../application/views/scripts/smarty.c:182
+msgid ""
+"Ваш первый клиент добавлен в базу!<br><br>\n"
+"Сейчас вы видите карточку компании - одну из основных страниц Консильери. На "
+"карточке отображена вся информация о клиенте.</br></br> \n"
+"\n"
+"На ней же можно поставить напоминания, касающиеся данного клиента. Или "
+"добавить событие в историю отношений с клиентом (форма внизу карточки).</"
+"br></br>\n"
+"\n"
+"Попасть на карточку конкретного клиента можно следующими способами:\n"
+"<b>1</b> Введя в поле поиска полное название клиента, или его часть\n"
+"<b>2</b> Найдя клиента в любом из списоков: алфавитном, метках и т.д. и "
+"кликнув по его названию."
+msgstr ""
+"Your first client has been added to the database!<br><br>\n"
+"Now you can see the Company card - one of the main Consiglieri pages. The "
+"card shows all the information related to the client.</br></br> \n"
+"\n"
+"You can attach reminders that deal with that particular client to the card. "
+"Or you can add an event into the client history (template at the bottom of "
+"the card).</br></br>\n"
+"\n"
+"You can get to the card of the particular client by the following ways:\n"
+"<b>1</b> By entering the full name of the client, or its part in the search "
+"field\n"
+"<b>2</b> By finding the client in any of the lists: alphabetical, labels and "
+"so on and by clicking his name."
+
+#: ../../../application/views/scripts/smarty.c:185
+msgid "Вносите простое и понятное вам название."
+msgstr "Enter an easy and clear name."
+
+#: ../../../application/views/scripts/smarty.c:188
+msgid ""
+"В первую очередь ставьте индивидуальные признаки, а затем - общие. Т.е. "
+"«Красная птица ООО» лучше<br>&nbsp;&nbsp;&nbsp; чем «ООО красная птица»."
+msgstr ""
+"Enter individual names first, then more common denominators. Example \"Red "
+"Bird Ltd\" is better <br>&nbsp;&nbsp;&nbsp; than \"Ltd Red Bird\"."
+
+#: ../../../application/views/scripts/smarty.c:191
+msgid ""
+"Если у клиента несколько названий (фирма, ИП, группа компаний) - пишите все "
+"через запятую. Поиск<br>&nbsp;&nbsp;&nbsp; найдет по любой части."
+msgstr ""
+"If a client has several names ( company, group etc) - write them all down, "
+"divided by a comma. Search <br>&nbsp;&nbsp;&nbsp; will find the client "
+"through any of his names."
+
+#: ../../../application/views/scripts/smarty.c:194
+msgid ""
+"В каждое поле можно вносить сколько угодно значений. Для удобства разделяйте "
+"их запятыми, например:<br>&nbsp;&nbsp;&nbsp; «(4732) 20-53-70, 89722849327»."
+msgstr ""
+"You can add as many values as you like into each field. For your convenience "
+"separate them by commas, example: <br>&nbsp;&nbsp;&nbsp; \"(4732) 20-53-70, "
+"89722849327\"."
+
+#: ../../../application/views/scripts/smarty.c:197
+msgid ""
+"Контактных лиц в это поле можно внести сколько угодно: от директора до "
+"сисадмина."
+msgstr ""
+"You can add as many contact people into this field as you like: from the "
+"director to the cleaning lady."
+
+#: ../../../application/views/scripts/smarty.c:200
+msgid ""
+"Одно лицо от другого отделяется двойным нажатием enter. Получается одна "
+"пустая строка."
+msgstr ""
+"Separate one person from the next one by pressing the Enter button twice. "
+"Than you will  have an empty row between people."
+
+#: ../../../application/views/scripts/smarty.c:203
+msgid ""
+"Разную информацию (телефон, е-мэйл и т.д.) по одному лицу пишем через "
+"запятую."
+msgstr ""
+"Different info (phone number, email) pertaining to the same contact, should "
+"be written in the same row, separated by a comma."
+
+#: ../../../application/views/scripts/smarty.c:206
+msgid "Например:"
+msgstr "Example:"
+
+#: ../../../application/views/scripts/smarty.c:209
+msgid ""
+"Петр Семёныч, директор, 8-999-345-2335, dir@dirdir.ru, любит спаниелей и "
+"охоту, ДР 12.01.1975\n"
+"\n"
+"Кривцова Маргарита Васильевна, главбух, 34-53-22\n"
+"\n"
+"Миша, сисадмин, раздолбай, mihaogo@asdf.ru"
+msgstr ""
+"Peter Simons, director, 8-999-345-2335, dir@dirdir.ru, loves spaniels and "
+"hunting, BD 12.01.1975\n"
+"\n"
+"Marguaritte,head accountant, 34-53-22\n"
+"\n"
+"Mike, driver, lazy dude, mihaogo@asdf.ru"
+
+#: ../../../application/views/scripts/smarty.c:212
+msgid ""
+"В данный момент вы находитесь в профиле администратора системы. "
+"Администратор не может работать с основным функционалом системы. Его задача "
+"- управлять профилями пользователей (создавать и удалять профили "
+"пользователей, восстанавливать забытые пароли и т.д.). Администратора "
+"невозможно ни удалить, ни создать. Он остается невидимым для всех групп "
+"пользователей.\n"
+"Чтобы начать работу с основным функционалом CRM вам необходимо проделать "
+"следующие шаги:"
+msgstr ""
+"At the moment you are registered under the system administrator profile. The "
+"administrator cannot work with the system's main functions. His job - is to "
+"maintain user profiles (create and delete user profiles, reinstate lost "
+"passwords etc). You cannot create or delete the administrator profile.He "
+"remains invisible to all users.\n"
+"In order to start work with the mail functions of the CRM system, you will "
+"have to go through the following steps:"
+
+#: ../../../application/views/scripts/smarty.c:215
+msgid "Создайте нового менеджера и назовите его своим именем."
+msgstr "Create a new manager and call it by your name."
+
+#: ../../../application/views/scripts/smarty.c:218
+msgid "Присвойте ему статус Суперменеджер."
+msgstr "Assign him the status of Supermanager."
+
+#: ../../../application/views/scripts/smarty.c:221
+msgid ""
+"Запомните логин и пароль для данного Суперменеджера (впредь вы будете "
+"работать под его именем)."
+msgstr ""
+"Remember the login and password for the Supermanager (you will be working "
+"under this name in future)."
+
+#: ../../../application/views/scripts/smarty.c:224
+msgid ""
+"Выйдете из системы и войдите снова, но уже под логиным и паролем созданного "
+"вами Суперменеджера."
+msgstr ""
+"Exit the system and reenter again, but now using the login and password you "
+"created for the Supermanager."
+
+#: ../../../application/views/scripts/smarty.c:227
+msgid ""
+"Вам доступна вкладка «Управление» - значит вы супер-менеджер. А бывают еще "
+"простые менеджеры.\n"
+"Как супер-менеджер, вы можете добавлять новых менеджеров, редактировать их "
+"профили."
+msgstr ""
+"You are allowed access to the \"Managment\" tab - which means you are the "
+"supermanager. You also get regular managers.\n"
+"As the supermanager, you can add new managers, and edit their profiles."
+
+#: ../../../application/views/scripts/smarty.c:230
+msgid "Другие отличия:"
+msgstr "Other differences:"
+
+#: ../../../application/views/scripts/smarty.c:233
+msgid "супер-менеджер"
+msgstr "supermanager"
+
+#: ../../../application/views/scripts/smarty.c:236
+msgid "менеджер"
+msgstr "manager"
+
+#: ../../../application/views/scripts/smarty.c:239
+msgid "Может править профили других менеджеров, добавлять новые"
+msgstr "Can edit other managers' profiles, add new ones"
+
+#: ../../../application/views/scripts/smarty.c:242
+msgid "не может"
+msgstr "can't"
+
+#: ../../../application/views/scripts/smarty.c:245
+msgid "Видит всю клиентскую базу, может работать с компаниями всех менеджеров"
+msgstr ""
+"Can see the entire client database, can work with companies belonging to all "
+"managers"
+
+#: ../../../application/views/scripts/smarty.c:248
+msgid ""
+"Видит только часть общей клиентской базы, только те компании которые "
+"приписаны ему"
+msgstr ""
+"Can see only part of the client database, only those companies that belong "
+"to him"
+
+#: ../../../application/views/scripts/smarty.c:251
+msgid "Может передавать компании от одного менеджера другому"
+msgstr "Can reassign companies from one manager to another"
+
+#: ../../../application/views/scripts/smarty.c:254
+msgid "Может только добавлять новые компании"
+msgstr "Can only add new companies"
+
+#: ../../../application/views/scripts/smarty.c:257
+msgid "Может поставить задачу-напоминание менеджеру, вещудему данного клиента"
+msgstr "Can add a task-reminder to a manager assigned to a particular client"
+
+#: ../../../application/views/scripts/smarty.c:260
+msgid "Может ставить напоминания только себе или всем сразу"
+msgstr "Can add reminders only to himself or to all"
+
+#: ../../../application/views/scripts/smarty.c:263
+msgid "В журнале видит события всех менеджеров"
+msgstr "Can see the events of all managers in the journal"
+
+#: ../../../application/views/scripts/smarty.c:266
+msgid "В журнале видит только свои события"
+msgstr "Can see only his own events in the journal"
+
+#: ../../../application/views/scripts/smarty.c:269
+msgid "Может править категории и метки"
+msgstr "Can change categories and labels"
+
+#: ../../../application/views/scripts/smarty.c:272
+msgid ""
+"Может только добавлять метки в существующие категории при добавлении новой "
+"компании"
+msgstr "Can only add labels to exisitng categories when adding a new company"
+
+#: ../../../application/views/scripts/smarty.c:275
+msgid ""
+"На этой странице собираются все напоминания по всем компаниям.<br><br>\n"
+"<b>Ставятся напоминания на карточке компании.</b> Найдите нужного клиента "
+"(используя поиск, метки или алфавитный список) - и на его карточке кликните "
+"по надписи "
+msgstr ""
+"This page collects all reminders pertaining to all companies<br><br>\n"
+"<b>Reminders are added on the Company card.</b> Find the necessary client "
+"(use search, labels or alphabetical list) - and click on the inscription on "
+"his card"
+
+#: ../../../application/views/scripts/smarty.c:278
+#: ../../../application/views/scripts/smarty.c:785
+#: ../../../application/views/scripts/smarty.c:1337
+#: ../../../application/views/scripts/smarty.c:1430
+msgid "поставить напоминание"
+msgstr "add a reminder"
+
+#: ../../../application/views/scripts/smarty.c:281
+msgid ""
+"Напоминания - удобная штука для управления работой с клиентами.<br><br>\n"
+"Напоминания бывают трех видов: самому себе, всей вашей компании, младшему "
+"менеджеру.<br><br>\n"
+"В напоминания можно вносить что угодно: задачи, звонки, встречи, долги, дни "
+"рождения, общие пометки и т.д.<br><br>\n"
+"Напоминание можно привязат к конкретной дате - тогда оно попадет в "
+"календарь, а в нужный день и на главную страницу.<br><br>\n"
+"Напоминания видны на карточке компании, а на этой странице собираются "
+"напоминания вообще по всем компаниям - удобно для тактического обзора.\n"
+msgstr ""
+"Reminders - useful gadget for managing client interactions. <br><br>\n"
+"You have 3 types of reminders: to yourself, to the whole company, to a "
+"junior manager.<br><br>\n"
+"You can add whatever you like to reminders: tasks, calls, meetings, debts, "
+"birthdays, general comments etc.<br><br>\n"
+"You can attach a reminder to a particular date- than it will be added to the "
+"calendar, to the right day and main page.<br><br>\n"
+"You can see reminders on the company card, and on this page where all the "
+"reminders are collected from the entire company - useful for a tactical "
+"overview.\n"
+
+#: ../../../application/views/scripts/smarty.c:284
+msgid "Напоминаний нет! Неужели держите всё в голове?"
+msgstr "No reminders! How does it all fit in your head?"
+
+#: ../../../application/views/scripts/smarty.c:287
+msgid ""
+"Петр Семёныч, директор, 8-999-345-2335, dir@glavdir.ru, любит спаниелей и "
+"охоту, ДР 12.01.1975"
+msgstr ""
+"Peter Simons, director,  8-999-345-2335, dir@glavdir.ru, loves spaniels and "
+"hunting, BD 12.01.1975"
+
+#: ../../../application/views/scripts/smarty.c:290
+msgid "Кривцова Маргарита Васильевна, главбух, 34-53-22"
+msgstr "Marguaritte,head accountant, 34-53-22"
+
+#: ../../../application/views/scripts/smarty.c:293
+msgid "Миша, сисадмин, раздолбай, mihaogo@asdf.ru"
+msgstr "Mike, driver, lazy dude, mihaogo@asdf.ru"
+
+#: ../../../application/views/scripts/smarty.c:296
+msgid "контактные лица через пустую строку, данные через запятую"
+msgstr "contact people through an empty row, data through a comma"
+
+#: ../../../application/views/scripts/smarty.c:299
+msgid "вставить образец"
+msgstr "insert sample"
+
+#: ../../../application/views/scripts/smarty.c:302
+msgid ""
+"У вас нет датированных напоминаний. Они удобны, когда речь идет о конкретно "
+"назначенных делах - встречах, звонках и т.д. \n"
+"\n"
+"Когда добавляете напоминание, поставьте в его тексте дату (формат дд.мм.гг.) "
+"- и напоминание станет датированным! Попадет в расписание, а в нужный день - "
+"и на главную страницу.\n"
+"\n"
+"Пример: «перезвонить по поводу предложения 12.08.08»."
+msgstr ""
+"You don't have any dated reminders. They are useful for already appointed "
+"affairs - meetings, calls, etc. \n"
+"\n"
+"If you add a date into the text ( format dd.mm.yy), your reminder will be "
+"dated and added to the calendar, to the correct day and on the main page.\n"
+"\n"
+"Example: \"call regarding offer 12.08.10\"."
+
+#: ../../../application/views/scripts/smarty.c:305
+#, c-format
+msgid ""
+"В вашей базе нет клиентов - работать не с чем. Добавьте несколько %img "
+"(ссылка  справа от поиска) - начните с самых любимых, актуальных, "
+"востребованных."
+msgstr ""
+"You don't have any cliets in your database- there is nothing to work with. "
+"Add a few %img (button to the righ of search) - start with the favourites, "
+"most needed or recent ones."
+
+#: ../../../application/views/scripts/smarty.c:308
+#, c-format
+msgid ""
+"Если вы хотите сначала создать учетные записи ваших менеджеров - перейдите "
+"во вкладку %img."
+msgstr ""
+"If you want to create your managers' accounts first - please go to page  "
+"%img."
+
+#: ../../../application/views/scripts/smarty.c:311
+msgid ""
+"В вашей базе нет клиентов - работать не с чем. Добавьте несколько (ссылка "
+msgstr ""
+"You don't have any clients in your database - there is nothing to work with. "
+"Add a few (link"
+
+#: ../../../application/views/scripts/smarty.c:314
+#: ../../../application/views/scripts/smarty.c:338
+#: ../../../application/views/scripts/smarty.c:350
+#: ../../../application/views/scripts/smarty.c:1478
+msgid "новый"
+msgstr "new"
+
+#: ../../../application/views/scripts/smarty.c:317
+msgid "справа от поиска) - начните с самых любимых, актуальных, востребованных"
+msgstr ""
+"to the right of search) - start with the favourites, most needed or recent "
+"ones."
+
+#: ../../../application/views/scripts/smarty.c:320
+msgid ""
+"Если вы хотите сначала создать учетные записи ваших менеджеров - перейдите "
+"во вкладку"
+msgstr ""
+"If you want to create your managers' accounts first - please go to page  "
+"%img."
+
+#: ../../../application/views/scripts/smarty.c:326
+msgid ""
+"В журнале собраны все события, записанные в историю ваших клиентов. Но в "
+"вашей базе сейчас клиентов нет."
+msgstr ""
+"The journal reflects all events, that were recorded in your clients' "
+"history. But you don't have clients yet."
+
+#: ../../../application/views/scripts/smarty.c:329
+msgid ""
+"Чтобы начать вести историю отношений с клиентами - сначала добавьте их. Для "
+"этого перейдите во вкладку"
+msgstr ""
+"To start recording the history of your relationship with your clients, add "
+"them into your database. In order to do that, please go to page"
+
+#: ../../../application/views/scripts/smarty.c:335
+msgid "и кликните там по ссылке "
+msgstr "and click on the link"
+
+#: ../../../application/views/scripts/smarty.c:341
+msgid "справа от поиска."
+msgstr "to the right of search"
+
+#: ../../../application/views/scripts/smarty.c:344
+msgid ""
+"Напоминания - удобная штука для управления работой с клиентами. Но сначала "
+"нужно добавить самих клиентов (начните с самых актуальных)."
+msgstr ""
+"Reminders - a useful gadget to manage client interactions. But first you "
+"need to add the clients (start with the most relevant ones)."
+
+#: ../../../application/views/scripts/smarty.c:347
+msgid "Для этого кликните по ссылке "
+msgstr "In order to do so please click on the link "
+
+#: ../../../application/views/scripts/smarty.c:353
+msgid " справа от поиска."
+msgstr "to the right of Search."
+
+#: ../../../application/views/scripts/smarty.c:356
+#, c-format
+msgid ""
+"В вашей базе нет клиентов - работать не с чем. Добавьте несколько (ссылка "
+"%img справа от поиска) - начните с самых любимых, актуальных, востребованных."
+msgstr ""
+"You don't have any clients in your database - there is nothing to work with. "
+"Add a few (%img link to the righ of search) - start with the favourites, "
+"most relevant or recent ones."
+
+#: ../../../application/views/scripts/smarty.c:359
+msgid ""
+"Метки позволяют классифицировать ваших клиентов, а также являются "
+"инструментом анализа вашей клиентской базы. Поставить метки клиенту можно "
+"при его создании и правке. Если вам не хватает каких-то категорий и меток, "
+"кликните"
+msgstr ""
+"Labels allow you to classify your clients, and also are a useful tool to "
+"analyze your client database. You can add a label to a client when you "
+"create or edit his profile. If you are missing some categories or labels, "
+"click"
+
+#: ../../../application/views/scripts/smarty.c:362
+msgid "вверху"
+msgstr "on top"
+
+#: ../../../application/views/scripts/smarty.c:365
+msgid ""
+"В журнал собираются все события, записанные в историю ваших клиентов.\n"
+"\n"
+"Пока вы не внесли ни одного события - поэтому журнал пуст."
+msgstr ""
+"The journal records all events written down in the client history.\n"
+"\n"
+"You haven't recorded an event yet, that's why the journal is empty."
+
+#: ../../../application/views/scripts/smarty.c:368
+msgid "События в историю компании заносятся на её карточке."
+msgstr "Events are added into the company's history on its card."
+
+#: ../../../application/views/scripts/smarty.c:371
+msgid ""
+"Найдите нужного клиента (через поиск, алфавитный список, метки) - и внизу "
+"страницы вы увидите простую форму для добавления события.\n"
+"\n"
+"\n"
+"История работы с клиентом - это ценный актив вашей компании. В неё можно "
+"заглянуть, чтобы освежить память. Она поможет новому менеджеру быстро "
+"включится в работу с клиентом. В ней фиксируются важные даты (договора, "
+"счета, поставки) - всегда можно заглянуть и уточнить.\n"
+"\n"
+"В историю стоит вносить все более-менее важные события: результаты звонков и "
+"встреч, полученную информацию, заключенные сделки и т.д.\n"
+"\n"
+"Можно вносить события сразу же (версия для КПК: pda.dacons.ru), а можно в "
+"конце рабочего дня.\n"
+"\n"
+"Журнал - это также средство контроля работы ваших менеджеров: сколько "
+"звонков и встреч совершено, каковы результаты, над чем ведется работа."
+msgstr ""
+"Find the relevant client ( through search, alphabetical list, labels) - at "
+"the bottom of his page you will see a simple template for adding a new "
+"event.\n"
+"\n"
+"\n"
+"The client history - is an important resource to your business. You can look "
+"into an event to refresh your memory. It will help a new manager quickly "
+"join the working process with the client. It marks important dates "
+"(contracts, bills, deliveries) - you can always look into and check.\n"
+"\n"
+"You should include all more or less important events into the history: "
+"results of the calls and meetings, received information, agreed deals and "
+"etc.\n"
+"\n"
+"You may add the events at ones (computer version: pda.dacons.ru), or at the "
+"end of working day.\n"
+"\n"
+"Journal - is also a mean of control of the managers' work: how many calls "
+"and meeting have been done, what the results are, what they are working at."
+
+#: ../../../application/views/scripts/smarty.c:374
+msgid "Активация программы"
+msgstr "Activate program"
+
+#: ../../../application/views/scripts/smarty.c:377
+msgid ""
+"Для того, чтобы начать работу с программой, сначала нужно её активировать."
+msgstr ""
+"In order to start work with the program, you first need to activate it."
+
+#: ../../../application/views/scripts/smarty.c:380
+#, c-format
+msgid ""
+"Для этого необходимо посетить страницу %url , где зарегистрировать программу "
+"на своё имя, и при регистрации ввести этот «Запрос на активацию»:"
+msgstr ""
+"In order to do so, you must visit the page %url, where you need to register "
+"the program in your name, and when registering, enter this \"request to "
+"activate\":"
+
+#: ../../../application/views/scripts/smarty.c:383
+msgid ""
+"Вы зарегистрировали больше пользователей, чем это предусмотрено вашим "
+"лицензионным ключом. <br>\n"
+"Обратитесь, пожалуйста, в службу техподдержки <a href = \"mailto:"
+"support@consileri.ru\">support@consileri.ru</a> , сообщите \n"
+"количество пользователей, которое наиболее точно соответствует потребностям "
+"вашего бизнеса\n"
+"и этот «Запрос на активацию»:"
+msgstr ""
+"You have registered more users, than your licensing key allows. <br>\n"
+"Please contact technical support <a href = \"mailto:support@consileri.ru"
+"\">support@consileri.ru</a> , and let them know \n"
+"the number of users that most accurately describe your company's "
+"requirements and this \"activation request\":"
+
+#: ../../../application/views/scripts/smarty.c:386
+msgid ""
+"После регистрации программы по указанному адресу, вы получите «Ключ "
+"активации».\n"
+"Введите его сюда:"
+msgstr ""
+"After you have registered the program at the given address, you will receive "
+"an \"activation key\"\n"
+"Please enter it here:"
+
+#: ../../../application/views/scripts/smarty.c:389
+msgid ""
+"После этого вы получите «Ключ активации».\n"
+"Введите его сюда:"
+msgstr ""
+"Afterwards you will receive the \"Activation key\".\n"
+"Please enter it here:"
+
+#: ../../../application/views/scripts/smarty.c:392
+msgid "Был указан неверный код. Попробуйте его ввести ещё раз."
+msgstr "You have entered the incorrect code. Please enter it one more time."
+
+#: ../../../application/views/scripts/smarty.c:395
+msgid "Активировать программу"
+msgstr "Activate program"
+
+#: ../../../application/views/scripts/smarty.c:398
+msgid "Программа успешно активирована."
+msgstr "The program has been successfully activated"
+
+#: ../../../application/views/scripts/smarty.c:401
+#: ../../../application/views/scripts/smarty.c:422
+#: ../../../application/views/scripts/smarty.c:443
+msgid "Поработать!"
+msgstr "Get to work!"
+
+#: ../../../application/views/scripts/smarty.c:404
+#: ../../../application/views/scripts/smarty.c:425
+msgid "Вход в Консильери"
+msgstr "Consiglieri entry"
+
+#: ../../../application/views/scripts/smarty.c:407
+#: ../../../application/views/scripts/smarty.c:428
+#: ../../../application/views/scripts/smarty.c:1586
+#: ../../../application/views/scripts/smarty.c:1682
+msgid "логин"
+msgstr "login"
+
+#: ../../../application/views/scripts/smarty.c:410
+#: ../../../application/views/scripts/smarty.c:431
+msgid "Была указана неправильная пара логин-пароль"
+msgstr "You have entred the incorrect pairing login-password"
+
+#: ../../../application/views/scripts/smarty.c:413
+#: ../../../application/views/scripts/smarty.c:434
+#: ../../../application/views/scripts/smarty.c:1703
+msgid "пароль"
+msgstr "password"
+
+#: ../../../application/views/scripts/smarty.c:416
+#: ../../../application/views/scripts/smarty.c:437
+msgid "забыли?"
+msgstr "forgot it?"
+
+#: ../../../application/views/scripts/smarty.c:419
+#: ../../../application/views/scripts/smarty.c:440
+msgid "запомнить меня на этом компьютере"
+msgstr "remember me on this computer"
+
+#: ../../../application/views/scripts/smarty.c:446
+#: ../../../application/views/scripts/smarty.c:497
+#: ../../../application/views/scripts/smarty.c:527
+#: ../../../application/views/scripts/smarty.c:1169
+msgid "Менеджеры:"
+msgstr "Managers:"
+
+#: ../../../application/views/scripts/smarty.c:449
+#: ../../../application/views/scripts/smarty.c:452
+#: ../../../application/views/scripts/smarty.c:500
+#: ../../../application/views/scripts/smarty.c:503
+#: ../../../application/views/scripts/smarty.c:530
+#: ../../../application/views/scripts/smarty.c:533
+#: ../../../application/views/scripts/smarty.c:1172
+#: ../../../application/views/scripts/smarty.c:1175
+msgid "Все менеджеры"
+msgstr "All managers"
+
+#: ../../../application/views/scripts/smarty.c:455
+msgid "Журнал:"
+msgstr "Journal:"
+
+#: ../../../application/views/scripts/smarty.c:458
+#: ../../../application/views/scripts/smarty.c:1904
+msgid "Нет событий."
+msgstr "No events."
+
+#: ../../../application/views/scripts/smarty.c:461
+msgid "Январь"
+msgstr "January"
+
+#: ../../../application/views/scripts/smarty.c:464
+msgid "Февраль"
+msgstr "February"
+
+#: ../../../application/views/scripts/smarty.c:467
+msgid "Март"
+msgstr "March"
+
+#: ../../../application/views/scripts/smarty.c:470
+msgid "Апрель"
+msgstr "April"
+
+#: ../../../application/views/scripts/smarty.c:473
+msgid "Май"
+msgstr "May"
+
+#: ../../../application/views/scripts/smarty.c:476
+msgid "Июнь"
+msgstr "June"
+
+#: ../../../application/views/scripts/smarty.c:479
+msgid "Июль"
+msgstr "July"
+
+#: ../../../application/views/scripts/smarty.c:482
+msgid "Август"
+msgstr "August"
+
+#: ../../../application/views/scripts/smarty.c:485
+msgid "Сентябрь"
+msgstr "September"
+
+#: ../../../application/views/scripts/smarty.c:488
+msgid "Октябрь"
+msgstr "October"
+
+#: ../../../application/views/scripts/smarty.c:491
+msgid "Ноябрь"
+msgstr "November"
+
+#: ../../../application/views/scripts/smarty.c:494
+msgid "Декабрь"
+msgstr "December"
+
+#: ../../../application/views/scripts/smarty.c:506
+msgid "Масштаб:"
+msgstr "Scale:"
+
+#: ../../../application/views/scripts/smarty.c:509
+#: ../../../application/views/scripts/smarty.c:512
+msgid "День"
+msgstr "Day"
+
+#: ../../../application/views/scripts/smarty.c:515
+#: ../../../application/views/scripts/smarty.c:518
+msgid "Неделя"
+msgstr "Week"
+
+#: ../../../application/views/scripts/smarty.c:521
+#: ../../../application/views/scripts/smarty.c:524
+msgid "Месяц"
+msgstr "Month"
+
+#: ../../../application/views/scripts/smarty.c:536
+#: ../../../application/views/scripts/smarty.c:1820
+msgid "Добавлено."
+msgstr "Added."
+
+#: ../../../application/views/scripts/smarty.c:539
+msgid "Введите текст!"
+msgstr "Enter text!"
+
+#: ../../../application/views/scripts/smarty.c:542
+msgid "Ошибка запроса!"
+msgstr "Invalid enquiry!"
+
+#: ../../../application/views/scripts/smarty.c:545
+msgid "Изменение не удалось!"
+msgstr "Edit was unsuccessful!"
+
+#: ../../../application/views/scripts/smarty.c:548
+msgid "Вы уверены?"
+msgstr "Are you sure?"
+
+#: ../../../application/views/scripts/smarty.c:551
+msgid "Удалить?"
+msgstr "Delete?"
+
+#: ../../../application/views/scripts/smarty.c:554
+msgid "Ничего не введено"
+msgstr "Nothing has been entered"
+
+#: ../../../application/views/scripts/smarty.c:557
+msgid "Загрузили успешно!"
+msgstr "Upload was sucessful!"
+
+#: ../../../application/views/scripts/smarty.c:560
+msgid ""
+"Мы рады, что Вы решили попробовать нашу систему. Если Вы начинающий "
+"предприниматель, или руководитель развивающегося малого бизнеса – Консильери-"
+"связи очень может пригодится!\n"
+"\n"
+"Первые шаги к использованию Консильери:\n"
+"1) Во вкладке «Управление» создайте всех менеджеров, которые будут работать "
+"с системой\n"
+"2) Каждый менеджер вносит в базу своих клиентов – данные о компаниях, "
+"контактные лица и т.д.\n"
+"3) При появлении новых клиентов менеджер тоже заносит их в базу\n"
+"4) При работе с клиентами менеджер заносит события в «историю» отношений с "
+"клиентом\n"
+"5) Продумайте и создайте свою систему «меток» - это позволит разделить "
+"клиентов на группы: работа станет более удобной и осмысленной.\n"
+"\n"
+"В результате вы будете иметь универсальную базу клиентов, историю отношений "
+"с ними.\n"
+" \n"
+"Попробуйте использовать «напоминания» в системе – это поможет не держать "
+"всякие мелочи в голове, сосредоточившись на главном!\n"
+"\n"
+"Все вопросы, сомнения, пожелания Вы можете оставлять на нашем форуме http://"
+"dacons.ru/forum/ или отправлять на почту службы поддержки dacons@3davinci."
+"ru\n"
+"\n"
+"Напоминаем Ваши данные для входа в Консильери:\n"
+"Страница входа: http://dacons.ru/\n"
+"Логин: %userlogin%\n"
+"Пароль: %userpass%\n"
+"\n"
+"Успешного бизнеса!"
+msgstr ""
+"We are happy that you have decided to try out our system. If you are a "
+"budding businessman, or a director of a developing small business- "
+"Consiglieri CRM will be a very useful tool for you!\n"
+"\n"
+"First steps in using Consiglieri:\n"
+"1) In the tab \"Managment\" create all your managers, which will be working "
+"with the system\n"
+"2) Each manager enters his clients into the database - company data, contact "
+"people etc\n"
+"3) If new clients appear, the manager adds them to the database as well \n"
+"4) In the process of interaction with clients, the manager enters events "
+"into the client \"history\"\n"
+"5) Think about and create your own system of \"labels\"- this will allow you "
+"to break your clients into groups: it will make work more intelligent and "
+"easy.\n"
+"\n"
+"As a result you will have a universal client database and a history of "
+"events for each of them\n"
+"Try using \"reminders\" in the system-this will help not to keep all sorts "
+"of details in your head, and will allow you to focus on more important "
+"things!\n"
+"\n"
+"All quesitions, doubts, wishes you can leave on our forum http://dacons.ru/"
+"forum/ or you can email our customer support on dacons@3davinci.ru\n"
+"\n"
+"Reminder - your entry information for Consiglieri is:\n"
+"Entry page: http://dacons.ru/\n"
+"Login: %userlogin%\n"
+"Password: %userpass%\n"
+"\n"
+"We wish you successful business dealings!"
+
+#: ../../../application/views/scripts/smarty.c:563
+msgid ""
+"Здравствуйте, %username%(сотрудник компании %customer%)!\n"
+"\n"
+"Сегодня %date%.\n"
+"\n"
+"Напоминаем вам о запланированных на сегодня мероприятиях (всего %number%).\n"
+"\n"
+"%reminders%Успешного бизнеса!\n"
+"==================================\n"
+"Команда проекта «Консильери-связи»"
+msgstr ""
+"Hello,  %username% (employee of company %customer%)!\n"
+"\n"
+"Today %date%.\n"
+"\n"
+"We are reminding you of activities planned for today ( in total  %number%).\n"
+"\n"
+"%reminders%Have a good work day!\n"
+"==================================\n"
+"Team «Consiglieri CRM»"
+
+#: ../../../application/views/scripts/smarty.c:566
+#: ../../../application/views/scripts/smarty.c:890
+msgid "Вернуться"
+msgstr "Return"
+
+#: ../../../application/views/scripts/smarty.c:569
+msgid "Добавление новой компании"
+msgstr "Add a new company"
+
+#: ../../../application/views/scripts/smarty.c:572
+#: ../../../application/views/scripts/smarty.c:896
+msgid "Ошибка:"
+msgstr "Error:"
+
+#: ../../../application/views/scripts/smarty.c:575
+#: ../../../application/views/scripts/smarty.c:899
+msgid "Компания"
+msgstr "Company"
+
+#: ../../../application/views/scripts/smarty.c:578
+#: ../../../application/views/scripts/smarty.c:902
+msgid "Контактная информация"
+msgstr "Contact info"
+
+#: ../../../application/views/scripts/smarty.c:581
+#: ../../../application/views/scripts/smarty.c:905
+msgid "телефоны"
+msgstr "phone numbers"
+
+#: ../../../application/views/scripts/smarty.c:584
+#: ../../../application/views/scripts/smarty.c:908
+msgid "адрес"
+msgstr "address"
+
+#: ../../../application/views/scripts/smarty.c:587
+#: ../../../application/views/scripts/smarty.c:911
+msgid "www сайт"
+msgstr "www site"
+
+#: ../../../application/views/scripts/smarty.c:590
+#: ../../../application/views/scripts/smarty.c:914
+msgid "@почта"
+msgstr "@mail"
+
+#: ../../../application/views/scripts/smarty.c:593
+#: ../../../application/views/scripts/smarty.c:917
+msgid "Люди"
+msgstr "People"
+
+#: ../../../application/views/scripts/smarty.c:596
+#: ../../../application/views/scripts/smarty.c:920
+msgid "Примечания"
+msgstr "Notes"
+
+#: ../../../application/views/scripts/smarty.c:599
+#: ../../../application/views/scripts/smarty.c:923
+msgid "Реквизиты тоже заполнить"
+msgstr "Fill in banking details"
+
+#: ../../../application/views/scripts/smarty.c:602
+#: ../../../application/views/scripts/smarty.c:812
+#: ../../../application/views/scripts/smarty.c:926
+#: ../../../application/views/scripts/smarty.c:1481
+msgid "Реквизиты"
+msgstr "Banking details"
+
+#: ../../../application/views/scripts/smarty.c:605
+#: ../../../application/views/scripts/smarty.c:929
+msgid "да ну их"
+msgstr "who cares"
+
+#: ../../../application/views/scripts/smarty.c:608
+#: ../../../application/views/scripts/smarty.c:647
+#: ../../../application/views/scripts/smarty.c:686
+#: ../../../application/views/scripts/smarty.c:725
+#: ../../../application/views/scripts/smarty.c:932
+#: ../../../application/views/scripts/smarty.c:971
+#: ../../../application/views/scripts/smarty.c:1010
+#: ../../../application/views/scripts/smarty.c:1049
+msgid "Наимен.:"
+msgstr "Name:"
+
+#: ../../../application/views/scripts/smarty.c:611
+#: ../../../application/views/scripts/smarty.c:650
+#: ../../../application/views/scripts/smarty.c:689
+#: ../../../application/views/scripts/smarty.c:728
+#: ../../../application/views/scripts/smarty.c:935
+#: ../../../application/views/scripts/smarty.c:974
+#: ../../../application/views/scripts/smarty.c:1013
+#: ../../../application/views/scripts/smarty.c:1052
+msgid "Руководитель:"
+msgstr "Manager:"
+
+#: ../../../application/views/scripts/smarty.c:614
+#: ../../../application/views/scripts/smarty.c:653
+#: ../../../application/views/scripts/smarty.c:692
+#: ../../../application/views/scripts/smarty.c:731
+#: ../../../application/views/scripts/smarty.c:938
+#: ../../../application/views/scripts/smarty.c:977
+#: ../../../application/views/scripts/smarty.c:1016
+#: ../../../application/views/scripts/smarty.c:1055
+#: ../../../application/views/scripts/smarty.c:1490
+msgid "Адрес:"
+msgstr "Address:"
+
+#: ../../../application/views/scripts/smarty.c:617
+#: ../../../application/views/scripts/smarty.c:656
+#: ../../../application/views/scripts/smarty.c:695
+#: ../../../application/views/scripts/smarty.c:734
+#: ../../../application/views/scripts/smarty.c:941
+#: ../../../application/views/scripts/smarty.c:980
+#: ../../../application/views/scripts/smarty.c:1019
+#: ../../../application/views/scripts/smarty.c:1058
+#: ../../../application/views/scripts/smarty.c:1493
+msgid "ИНН:"
+msgstr "Account number"
+
+#: ../../../application/views/scripts/smarty.c:620
+#: ../../../application/views/scripts/smarty.c:659
+#: ../../../application/views/scripts/smarty.c:698
+#: ../../../application/views/scripts/smarty.c:737
+#: ../../../application/views/scripts/smarty.c:944
+#: ../../../application/views/scripts/smarty.c:983
+#: ../../../application/views/scripts/smarty.c:1022
+#: ../../../application/views/scripts/smarty.c:1061
+#: ../../../application/views/scripts/smarty.c:1496
+msgid "КПП:"
+msgstr "IBAN:"
+
+#: ../../../application/views/scripts/smarty.c:623
+#: ../../../application/views/scripts/smarty.c:662
+#: ../../../application/views/scripts/smarty.c:701
+#: ../../../application/views/scripts/smarty.c:740
+#: ../../../application/views/scripts/smarty.c:947
+#: ../../../application/views/scripts/smarty.c:986
+#: ../../../application/views/scripts/smarty.c:1025
+#: ../../../application/views/scripts/smarty.c:1064
+#: ../../../application/views/scripts/smarty.c:1499
+msgid "p/c:"
+msgstr "Acc/Acc"
+
+#: ../../../application/views/scripts/smarty.c:626
+#: ../../../application/views/scripts/smarty.c:665
+#: ../../../application/views/scripts/smarty.c:704
+#: ../../../application/views/scripts/smarty.c:743
+#: ../../../application/views/scripts/smarty.c:950
+#: ../../../application/views/scripts/smarty.c:989
+#: ../../../application/views/scripts/smarty.c:1028
+#: ../../../application/views/scripts/smarty.c:1067
+#: ../../../application/views/scripts/smarty.c:1502
+msgid "В банке:"
+msgstr "Bank name:"
+
+#: ../../../application/views/scripts/smarty.c:629
+#: ../../../application/views/scripts/smarty.c:668
+#: ../../../application/views/scripts/smarty.c:707
+#: ../../../application/views/scripts/smarty.c:746
+#: ../../../application/views/scripts/smarty.c:953
+#: ../../../application/views/scripts/smarty.c:992
+#: ../../../application/views/scripts/smarty.c:1031
+#: ../../../application/views/scripts/smarty.c:1070
+#: ../../../application/views/scripts/smarty.c:1505
+msgid "БИК:"
+msgstr "Bank address:"
+
+#: ../../../application/views/scripts/smarty.c:632
+#: ../../../application/views/scripts/smarty.c:671
+#: ../../../application/views/scripts/smarty.c:710
+#: ../../../application/views/scripts/smarty.c:749
+#: ../../../application/views/scripts/smarty.c:956
+#: ../../../application/views/scripts/smarty.c:995
+#: ../../../application/views/scripts/smarty.c:1034
+#: ../../../application/views/scripts/smarty.c:1073
+#: ../../../application/views/scripts/smarty.c:1508
+msgid "к/c:"
+msgstr "Corr/Acc:"
+
+#: ../../../application/views/scripts/smarty.c:635
+#: ../../../application/views/scripts/smarty.c:674
+#: ../../../application/views/scripts/smarty.c:713
+#: ../../../application/views/scripts/smarty.c:752
+#: ../../../application/views/scripts/smarty.c:959
+#: ../../../application/views/scripts/smarty.c:998
+#: ../../../application/views/scripts/smarty.c:1037
+#: ../../../application/views/scripts/smarty.c:1076
+#: ../../../application/views/scripts/smarty.c:1511
+msgid "ОКПО:"
+msgstr "ABA:"
+
+#: ../../../application/views/scripts/smarty.c:638
+#: ../../../application/views/scripts/smarty.c:677
+#: ../../../application/views/scripts/smarty.c:716
+#: ../../../application/views/scripts/smarty.c:755
+#: ../../../application/views/scripts/smarty.c:962
+#: ../../../application/views/scripts/smarty.c:1001
+#: ../../../application/views/scripts/smarty.c:1040
+#: ../../../application/views/scripts/smarty.c:1079
+#: ../../../application/views/scripts/smarty.c:1514
+msgid "ОКОНХ:"
+msgstr "Branch name:"
+
+#: ../../../application/views/scripts/smarty.c:641
+#: ../../../application/views/scripts/smarty.c:680
+#: ../../../application/views/scripts/smarty.c:719
+#: ../../../application/views/scripts/smarty.c:758
+#: ../../../application/views/scripts/smarty.c:965
+#: ../../../application/views/scripts/smarty.c:1004
+#: ../../../application/views/scripts/smarty.c:1043
+#: ../../../application/views/scripts/smarty.c:1082
+#: ../../../application/views/scripts/smarty.c:1517
+msgid "ОГРН:"
+msgstr "Branch code:"
+
+#: ../../../application/views/scripts/smarty.c:644
+#: ../../../application/views/scripts/smarty.c:683
+#: ../../../application/views/scripts/smarty.c:722
+#: ../../../application/views/scripts/smarty.c:761
+#: ../../../application/views/scripts/smarty.c:968
+#: ../../../application/views/scripts/smarty.c:1007
+#: ../../../application/views/scripts/smarty.c:1046
+#: ../../../application/views/scripts/smarty.c:1085
+#: ../../../application/views/scripts/smarty.c:1520
+msgid "ОКВЕД:"
+msgstr "Branch code:"
+
+#: ../../../application/views/scripts/smarty.c:764
+#: ../../../application/views/scripts/smarty.c:824
+#: ../../../application/views/scripts/smarty.c:1367
+#: ../../../application/views/scripts/smarty.c:1709
+#: ../../../application/views/scripts/smarty.c:1742
+#: ../../../application/views/scripts/smarty.c:1817
+#: ../../../application/views/scripts/smarty.c:1838
+#: ../../../application/views/scripts/smarty.c:1928
+#: ../../../application/views/scripts/smarty.c:1949
+#: ../../../application/views/scripts/smarty.c:1961
+#: ../../../application/views/scripts/smarty.c:1970
+#: ../../../application/views/scripts/smarty.c:2039
+#: ../../../application/views/scripts/smarty.c:2042
+msgid "Добавить"
+msgstr "Add"
+
+#: ../../../application/views/scripts/smarty.c:767
+#: ../../../application/views/scripts/smarty.c:1094
+#: ../../../application/views/scripts/smarty.c:1121
+#: ../../../application/views/scripts/smarty.c:1133
+#: ../../../application/views/scripts/smarty.c:1280
+#: ../../../application/views/scripts/smarty.c:1847
+msgid "Метки"
+msgstr "Labels"
+
+#: ../../../application/views/scripts/smarty.c:773
+#, c-format
+msgid "Компанию ведет менеджер %nickname"
+msgstr "Company is managed by manager %nickname"
+
+#: ../../../application/views/scripts/smarty.c:776
+#: ../../../application/views/scripts/smarty.c:1670
+msgid "Передать"
+msgstr "Transfer"
+
+#: ../../../application/views/scripts/smarty.c:779
+#: ../../../application/views/scripts/smarty.c:1136
+#: ../../../application/views/scripts/smarty.c:1334
+#: ../../../application/views/scripts/smarty.c:1427
+msgid "править"
+msgstr "correct"
+
+#: ../../../application/views/scripts/smarty.c:782
+msgid "печать"
+msgstr "print"
+
+#: ../../../application/views/scripts/smarty.c:788
+#: ../../../application/views/scripts/smarty.c:1340
+#: ../../../application/views/scripts/smarty.c:1433
+msgid "новое напоминание:"
+msgstr "new reminder:"
+
+#: ../../../application/views/scripts/smarty.c:791
+#: ../../../application/views/scripts/smarty.c:800
+#: ../../../application/views/scripts/smarty.c:1100
+#: ../../../application/views/scripts/smarty.c:1211
+#: ../../../application/views/scripts/smarty.c:1238
+#: ../../../application/views/scripts/smarty.c:1247
+#: ../../../application/views/scripts/smarty.c:1259
+#: ../../../application/views/scripts/smarty.c:1271
+#: ../../../application/views/scripts/smarty.c:1343
+#: ../../../application/views/scripts/smarty.c:1352
+#: ../../../application/views/scripts/smarty.c:1436
+#: ../../../application/views/scripts/smarty.c:1445
+msgid "себе"
+msgstr "to me"
+
+#: ../../../application/views/scripts/smarty.c:794
+#: ../../../application/views/scripts/smarty.c:803
+#: ../../../application/views/scripts/smarty.c:1103
+#: ../../../application/views/scripts/smarty.c:1214
+#: ../../../application/views/scripts/smarty.c:1241
+#: ../../../application/views/scripts/smarty.c:1250
+#: ../../../application/views/scripts/smarty.c:1262
+#: ../../../application/views/scripts/smarty.c:1274
+#: ../../../application/views/scripts/smarty.c:1346
+#: ../../../application/views/scripts/smarty.c:1355
+#: ../../../application/views/scripts/smarty.c:1439
+#: ../../../application/views/scripts/smarty.c:1448
+msgid "менеджеру"
+msgstr "to a manager"
+
+#: ../../../application/views/scripts/smarty.c:797
+#: ../../../application/views/scripts/smarty.c:806
+#: ../../../application/views/scripts/smarty.c:1106
+#: ../../../application/views/scripts/smarty.c:1217
+#: ../../../application/views/scripts/smarty.c:1244
+#: ../../../application/views/scripts/smarty.c:1253
+#: ../../../application/views/scripts/smarty.c:1265
+#: ../../../application/views/scripts/smarty.c:1277
+#: ../../../application/views/scripts/smarty.c:1349
+#: ../../../application/views/scripts/smarty.c:1358
+#: ../../../application/views/scripts/smarty.c:1442
+#: ../../../application/views/scripts/smarty.c:1451
+msgid "всем"
+msgstr "to all"
+
+#: ../../../application/views/scripts/smarty.c:809
+#: ../../../application/views/scripts/smarty.c:1835
+msgid "История"
+msgstr "History"
+
+#: ../../../application/views/scripts/smarty.c:815
+msgid "Файлы"
+msgstr "Files"
+
+#: ../../../application/views/scripts/smarty.c:818
+msgid "событие"
+msgstr "Event"
+
+#: ../../../application/views/scripts/smarty.c:821
+msgid "подробности"
+msgstr "details"
+
+#: ../../../application/views/scripts/smarty.c:827
+#: ../../../application/views/scripts/smarty.c:1841
+msgid "Сегодня"
+msgstr "Today"
+
+#: ../../../application/views/scripts/smarty.c:830
+msgid "Сохранить"
+msgstr "Save"
+
+#: ../../../application/views/scripts/smarty.c:833
+msgid "Отменить"
+msgstr "Cancel"
+
+#: ../../../application/views/scripts/smarty.c:836
+#: ../../../application/views/scripts/smarty.c:1988
+msgid "Организация"
+msgstr "Organization"
+
+#: ../../../application/views/scripts/smarty.c:839
+#: ../../../application/views/scripts/smarty.c:1991
+msgid "ИНН"
+msgstr "Account number"
+
+#: ../../../application/views/scripts/smarty.c:842
+#: ../../../application/views/scripts/smarty.c:1994
+msgid "КПП"
+msgstr "IBAN"
+
+#: ../../../application/views/scripts/smarty.c:845
+#: ../../../application/views/scripts/smarty.c:1997
+msgid "p/c"
+msgstr "Acc/Acc"
+
+#: ../../../application/views/scripts/smarty.c:848
+#: ../../../application/views/scripts/smarty.c:2000
+msgid "В банке"
+msgstr "Bank name"
+
+#: ../../../application/views/scripts/smarty.c:851
+#: ../../../application/views/scripts/smarty.c:2003
+msgid "БИК"
+msgstr "Bank address"
+
+#: ../../../application/views/scripts/smarty.c:854
+#: ../../../application/views/scripts/smarty.c:2006
+msgid "к/c"
+msgstr "Corr/Acc"
+
+#: ../../../application/views/scripts/smarty.c:857
+#: ../../../application/views/scripts/smarty.c:2009
+msgid "ОКПО"
+msgstr "ABA"
+
+#: ../../../application/views/scripts/smarty.c:860
+#: ../../../application/views/scripts/smarty.c:2012
+msgid "ОКОНХ"
+msgstr "Branch name"
+
+#: ../../../application/views/scripts/smarty.c:863
+#: ../../../application/views/scripts/smarty.c:2015
+msgid "ОГРН"
+msgstr "Branch code"
+
+#: ../../../application/views/scripts/smarty.c:866
+#: ../../../application/views/scripts/smarty.c:2018
+msgid "ОКВЕД"
+msgstr "Branch code"
+
+#: ../../../application/views/scripts/smarty.c:869
+#: ../../../application/views/scripts/smarty.c:2021
+msgid "Ген. директор"
+msgstr "General director"
+
+#: ../../../application/views/scripts/smarty.c:872
+msgid "выбрать файлы"
+msgstr "choose files"
+
+#: ../../../application/views/scripts/smarty.c:875
+msgid "Прикрепить файл"
+msgstr "Attach a file"
+
+#: ../../../application/views/scripts/smarty.c:878
+msgid "Выбранные файлы:"
+msgstr "Chosen files:"
+
+#: ../../../application/views/scripts/smarty.c:881
+msgid "примечание"
+msgstr "note"
+
+#: ../../../application/views/scripts/smarty.c:884
+msgid "выбрать еще"
+msgstr "choose more"
+
+#: ../../../application/views/scripts/smarty.c:887
+msgid "загрузить"
+msgstr "upload"
+
+#: ../../../application/views/scripts/smarty.c:893
+msgid "Редактирование компании"
+msgstr "Edit company"
+
+#: ../../../application/views/scripts/smarty.c:1088
+#: ../../../application/views/scripts/smarty.c:1829
+#: ../../../application/views/scripts/smarty.c:1967
+#: ../../../application/views/scripts/smarty.c:2045
+msgid "Изменить"
+msgstr "Edit"
+
+#: ../../../application/views/scripts/smarty.c:1091
+#: ../../../application/views/scripts/smarty.c:1565
+msgid "Отмена"
+msgstr "Cancel"
+
+#: ../../../application/views/scripts/smarty.c:1097
+#: ../../../application/views/scripts/smarty.c:1256
+msgid "просроченные"
+msgstr "expired"
+
+#: ../../../application/views/scripts/smarty.c:1109
+#: ../../../application/views/scripts/smarty.c:1115
+msgid "Рабочий день:"
+msgstr "Working day:"
+
+#: ../../../application/views/scripts/smarty.c:1112
+#: ../../../application/views/scripts/smarty.c:1118
+#: ../../../application/views/scripts/smarty.c:1868
+#: ../../../application/views/scripts/smarty.c:1883
+msgid "Список пуст."
+msgstr "The list is empty."
+
+#: ../../../application/views/scripts/smarty.c:1124
+msgid "режим правки"
+msgstr "editing mode"
+
+#: ../../../application/views/scripts/smarty.c:1127
+msgid "обычный режим"
+msgstr "normal mode"
+
+#: ../../../application/views/scripts/smarty.c:1130
+msgid ""
+"Чтобы изменить, удалить категорию или метку, кликните по ней. Категория - "
+"это то, что черным шрифтом написано. Обобщающий признак (например, "
+"«Чудища»).  Метки - это варианты категории (например, «бегемоты», «слоны», "
+"«левиафаны»)."
+msgstr ""
+"In order to change or delete a label, click on it. Category - is defined in "
+"bold print. It is the generalizing attribute (for example, \"Monsters\"). "
+"Labels are versions of the category (ex. \"hippos\", \"elephants\", \"hobbits"
+"\")."
+
+#: ../../../application/views/scripts/smarty.c:1139
+#: ../../../application/views/scripts/smarty.c:1142
+#: ../../../application/views/scripts/smarty.c:1625
+#: ../../../application/views/scripts/smarty.c:1628
+msgid "Удалить!"
+msgstr "Delete!"
+
+#: ../../../application/views/scripts/smarty.c:1145
+#: ../../../application/views/scripts/smarty.c:1634
+msgid "Внимание! Удаление категории!"
+msgstr "Attention! You are deleteing a category!"
+
+#: ../../../application/views/scripts/smarty.c:1148
+#: ../../../application/views/scripts/smarty.c:1637
+msgid "Вы желаете удалить категорию и перенести метки в другую категорию?"
+msgstr ""
+"Do you wish to delete the category and transfer the labels to a different "
+"category?"
+
+#: ../../../application/views/scripts/smarty.c:1151
+#: ../../../application/views/scripts/smarty.c:1640
+msgid "Не переносить"
+msgstr "Don't transfer"
+
+#: ../../../application/views/scripts/smarty.c:1154
+#: ../../../application/views/scripts/smarty.c:1643
+msgid "Внимание! Удаление метки!"
+msgstr "Attention! You are deleting a label!"
+
+#: ../../../application/views/scripts/smarty.c:1157
+#: ../../../application/views/scripts/smarty.c:1646
+msgid ""
+"Вы желаете удалить метку и присвоить фирмам под этой меткой другую метку?"
+msgstr ""
+"Do you wish to delete the label and assign to the companies under that label "
+"a different label?"
+
+#: ../../../application/views/scripts/smarty.c:1160
+#: ../../../application/views/scripts/smarty.c:1649
+msgid "Не присваивать"
+msgstr "Don't assign"
+
+#: ../../../application/views/scripts/smarty.c:1163
+#: ../../../application/views/scripts/smarty.c:1652
+msgid "Новая категория"
+msgstr "New category"
+
+#: ../../../application/views/scripts/smarty.c:1166
+msgid "метка"
+msgstr "label"
+
+#: ../../../application/views/scripts/smarty.c:1178
+#: ../../../application/views/scripts/smarty.c:1181
+msgid "Клиенты всех менеджеров"
+msgstr "Clients belonging to all managers"
+
+#: ../../../application/views/scripts/smarty.c:1184
+#: ../../../application/views/scripts/smarty.c:1187
+msgid "Только МОИ клиенты"
+msgstr "Only MY clients"
+
+#: ../../../application/views/scripts/smarty.c:1190
+msgid "Напоминаний:"
+msgstr "Reminders:"
+
+#: ../../../application/views/scripts/smarty.c:1193
+msgid "Избранное:"
+msgstr "Selected:"
+
+#: ../../../application/views/scripts/smarty.c:1196
+#: ../../../application/views/scripts/smarty.c:1235
+#: ../../../application/views/scripts/smarty.c:1901
+msgid "Сегодня:"
+msgstr "Today:"
+
+#: ../../../application/views/scripts/smarty.c:1199
+#: ../../../application/views/scripts/smarty.c:1202
+msgid "Вы уверены что хотите удалить напоминание?"
+msgstr "Are you certain you wish to delete this reminder?"
+
+#: ../../../application/views/scripts/smarty.c:1205
+msgid "сегодня:"
+msgstr "today:"
+
+#: ../../../application/views/scripts/smarty.c:1208
+#: ../../../application/views/scripts/smarty.c:1223
+msgid "Напоминания"
+msgstr "Reminders"
+
+#: ../../../application/views/scripts/smarty.c:1226
+msgid "мои"
+msgstr "my"
+
+#: ../../../application/views/scripts/smarty.c:1229
+msgid "от старшего менеджера"
+msgstr "from senior manager"
+
+#: ../../../application/views/scripts/smarty.c:1232
+msgid "всеобщие"
+msgstr "to all"
+
+#: ../../../application/views/scripts/smarty.c:1268
+msgid "не привязаны к дате"
+msgstr "not assigned a date"
+
+#: ../../../application/views/scripts/smarty.c:1283
+#: ../../../application/views/scripts/smarty.c:1850
+msgid "Все компании:"
+msgstr "All companies:"
+
+#: ../../../application/views/scripts/smarty.c:1286
+#: ../../../application/views/scripts/smarty.c:1376
+msgid "Все компании"
+msgstr "All companies"
+
+#: ../../../application/views/scripts/smarty.c:1289
+#: ../../../application/views/scripts/smarty.c:1379
+msgid "Избранное"
+msgstr "Selected"
+
+#: ../../../application/views/scripts/smarty.c:1292
+#: ../../../application/views/scripts/smarty.c:1385
+#: ../../../application/views/scripts/smarty.c:1979
+msgid "Компании"
+msgstr "Companies"
+
+#: ../../../application/views/scripts/smarty.c:1295
+#: ../../../application/views/scripts/smarty.c:1388
+msgid "Ничего не выбрано!"
+msgstr "Nothing has been selected!"
+
+#: ../../../application/views/scripts/smarty.c:1301
+msgid "печать списка"
+msgstr "print list"
+
+#: ../../../application/views/scripts/smarty.c:1304
+#: ../../../application/views/scripts/smarty.c:1397
+#: ../../../application/views/scripts/smarty.c:1463
+msgid "Вывод всех данных может выполняться долго!nВы уверены?"
+msgstr "The export of all data can take a while! Are you certain?"
+
+#: ../../../application/views/scripts/smarty.c:1307
+#: ../../../application/views/scripts/smarty.c:1310
+#: ../../../application/views/scripts/smarty.c:1370
+#: ../../../application/views/scripts/smarty.c:1373
+#: ../../../application/views/scripts/smarty.c:1400
+#: ../../../application/views/scripts/smarty.c:1403
+#: ../../../application/views/scripts/smarty.c:1466
+#: ../../../application/views/scripts/smarty.c:1469
+msgid "весь список"
+msgstr "entire list"
+
+#: ../../../application/views/scripts/smarty.c:1313
+#: ../../../application/views/scripts/smarty.c:1406
+msgid "Выберите действие"
+msgstr "Choose an action"
+
+#: ../../../application/views/scripts/smarty.c:1316
+#: ../../../application/views/scripts/smarty.c:1409
+msgid "Выполнить действие:"
+msgstr "Carry out an action:"
+
+#: ../../../application/views/scripts/smarty.c:1319
+#: ../../../application/views/scripts/smarty.c:1412
+msgid "печать выбранного"
+msgstr "print selected"
+
+#: ../../../application/views/scripts/smarty.c:1322
+#: ../../../application/views/scripts/smarty.c:1415
+msgid "Передать менеджеру:"
+msgstr "Transfer to manager:"
+
+#: ../../../application/views/scripts/smarty.c:1325
+#: ../../../application/views/scripts/smarty.c:1418
+msgid "Присвоить метку:"
+msgstr "Assign a label:"
+
+#: ../../../application/views/scripts/smarty.c:1328
+#: ../../../application/views/scripts/smarty.c:1421
+#, c-format
+msgid "В категории %category"
+msgstr "In category %category"
+
+#: ../../../application/views/scripts/smarty.c:1331
+#: ../../../application/views/scripts/smarty.c:1424
+#: ../../../application/views/scripts/smarty.c:1889
+msgid "Не найдено."
+msgstr "Not found."
+
+#: ../../../application/views/scripts/smarty.c:1361
+#: ../../../application/views/scripts/smarty.c:1454
+msgid "Ист."
+msgstr "Hist."
+
+#: ../../../application/views/scripts/smarty.c:1364
+#: ../../../application/views/scripts/smarty.c:1457
+msgid "История:"
+msgstr "History:"
+
+#: ../../../application/views/scripts/smarty.c:1382
+#: ../../../application/views/scripts/smarty.c:1475
+msgid "Клиент:"
+msgstr "Client:"
+
+#: ../../../application/views/scripts/smarty.c:1391
+#, c-format
+msgid "Компании '%company' нет в нашей базе!"
+msgstr "Company  '%company' not present in your database!"
+
+#: ../../../application/views/scripts/smarty.c:1394
+msgid "Добавить?"
+msgstr "Add?"
+
+#: ../../../application/views/scripts/smarty.c:1460
+msgid "Копанию ведет менеджер:"
+msgstr "Company is managed by manager:"
+
+#: ../../../application/views/scripts/smarty.c:1472
+#, c-format
+msgid "Эта компания есть в базе. Её курирует <b>%manager</b>"
+msgstr ""
+"This company exists in the database. It is supervised by <b>%manager</b>"
+
+#: ../../../application/views/scripts/smarty.c:1484
+msgid "Наименование:"
+msgstr "Name:"
+
+#: ../../../application/views/scripts/smarty.c:1487
+msgid "ФИО руководителя:"
+msgstr "Surname, name of the head:"
+
+#: ../../../application/views/scripts/smarty.c:1523
+msgid "Реквизиты не указаны."
+msgstr "Banking details are not entered."
+
+#: ../../../application/views/scripts/smarty.c:1526
+#: ../../../application/views/scripts/smarty.c:1538
+#: ../../../application/views/scripts/smarty.c:1544
+#: ../../../application/views/scripts/smarty.c:1553
+#: ../../../application/views/scripts/smarty.c:1616
+#: ../../../application/views/scripts/smarty.c:1745
+msgid "Менеджеры"
+msgstr "Managers"
+
+#: ../../../application/views/scripts/smarty.c:1529
+msgid "Ваша компания"
+msgstr "Your company"
+
+#: ../../../application/views/scripts/smarty.c:1532
+msgid "название"
+msgstr "name"
+
+#: ../../../application/views/scripts/smarty.c:1535
+#: ../../../application/views/scripts/smarty.c:1613
+msgid "Сохранить изменения"
+msgstr "Save changes"
+
+#: ../../../application/views/scripts/smarty.c:1541
+msgid "Новое название комании:"
+msgstr "New company name:"
+
+#: ../../../application/views/scripts/smarty.c:1547
+#: ../../../application/views/scripts/smarty.c:1556
+msgid "Удаление клиентов"
+msgstr "Delete clients"
+
+#: ../../../application/views/scripts/smarty.c:1550
+#: ../../../application/views/scripts/smarty.c:1562
+#: ../../../application/views/scripts/smarty.c:1955
+#: ../../../application/views/scripts/smarty.c:1964
+msgid "Удалить"
+msgstr "Delete"
+
+#: ../../../application/views/scripts/smarty.c:1559
+#, c-format
+msgid ""
+"Вы хотите удалить из базы следующего клиента: <b>%client</b><br />\n"
+" Вы уверены?"
+msgstr ""
+"Do you want to delete the following client from the database:<b>%client</"
+"b><br />\n"
+"Are you certain?"
+
+#: ../../../application/views/scripts/smarty.c:1568
+msgid "Вы не можете уволить себя!"
+msgstr "You can't fire yourself!"
+
+#: ../../../application/views/scripts/smarty.c:1571
+msgid "Увольнение менеджера"
+msgstr "Fire a manager"
+
+#: ../../../application/views/scripts/smarty.c:1574
+msgid "передать фирмы"
+msgstr "Transfer companies"
+
+#: ../../../application/views/scripts/smarty.c:1577
+msgid "Уволить"
+msgstr "Fire"
+
+#: ../../../application/views/scripts/smarty.c:1580
+msgid "Удалить менеджера?"
+msgstr "Delete the manager?"
+
+#: ../../../application/views/scripts/smarty.c:1583
+msgid "Профиль менеджера"
+msgstr "Manager profile"
+
+#: ../../../application/views/scripts/smarty.c:1589
+#: ../../../application/views/scripts/smarty.c:1685
+msgid "имя"
+msgstr "name"
+
+#: ../../../application/views/scripts/smarty.c:1592
+#: ../../../application/views/scripts/smarty.c:1688
+msgid "статус"
+msgstr "status"
+
+#: ../../../application/views/scripts/smarty.c:1595
+#: ../../../application/views/scripts/smarty.c:1691
+#: ../../../application/views/scripts/smarty.c:1736
+msgid "Менеджер"
+msgstr "Manager"
+
+#: ../../../application/views/scripts/smarty.c:1598
+#: ../../../application/views/scripts/smarty.c:1694
+#: ../../../application/views/scripts/smarty.c:1739
+msgid "Супер-менеджер"
+msgstr "Supermanager"
+
+#: ../../../application/views/scripts/smarty.c:1601
+#: ../../../application/views/scripts/smarty.c:1697
+msgid "e-mail"
+msgstr "e-mail"
+
+#: ../../../application/views/scripts/smarty.c:1604
+#: ../../../application/views/scripts/smarty.c:1700
+msgid "подписка"
+msgstr "subscription"
+
+#: ../../../application/views/scripts/smarty.c:1607
+msgid "новый пароль"
+msgstr "new password"
+
+#: ../../../application/views/scripts/smarty.c:1610
+#: ../../../application/views/scripts/smarty.c:1706
+msgid "ещё раз"
+msgstr "repeat"
+
+#: ../../../application/views/scripts/smarty.c:1619
+#: ../../../application/views/scripts/smarty.c:1622
+#: ../../../application/views/scripts/smarty.c:1673
+#: ../../../application/views/scripts/smarty.c:1676
+msgid "Новый менеджер"
+msgstr "New manager"
+
+#: ../../../application/views/scripts/smarty.c:1631
+msgid "Редактирование категорий и меток"
+msgstr "Edit categories and labels"
+
+#: ../../../application/views/scripts/smarty.c:1655
+msgid "Новая метка"
+msgstr "New label"
+
+#: ../../../application/views/scripts/smarty.c:1658
+msgid ""
+"Информация о\n"
+"компании"
+msgstr ""
+"Company \n"
+"info"
+
+#: ../../../application/views/scripts/smarty.c:1661
+msgid "Название компании"
+msgstr "Company name"
+
+#: ../../../application/views/scripts/smarty.c:1664
+msgid "Передача фирмы"
+msgstr "Company transfer"
+
+#: ../../../application/views/scripts/smarty.c:1667
+msgid "причина"
+msgstr "reason"
+
+#: ../../../application/views/scripts/smarty.c:1679
+msgid "Добавление нового менеджера"
+msgstr "Add a new manager"
+
+#: ../../../application/views/scripts/smarty.c:1712
+msgid "Добавить нового менеджера"
+msgstr "Add a new manager"
+
+#: ../../../application/views/scripts/smarty.c:1715
+msgid "Логин:"
+msgstr "Login:"
+
+#: ../../../application/views/scripts/smarty.c:1718
+msgid "Имя:"
+msgstr "Name:"
+
+#: ../../../application/views/scripts/smarty.c:1721
+#: ../../../application/views/scripts/smarty.c:1916
+#: ../../../application/views/scripts/smarty.c:1940
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: ../../../application/views/scripts/smarty.c:1724
+msgid "Рассылка:"
+msgstr "Mailing:"
+
+#: ../../../application/views/scripts/smarty.c:1727
+#: ../../../application/views/scripts/smarty.c:1778
+#: ../../../application/views/scripts/smarty.c:1796
+#: ../../../application/views/scripts/smarty.c:2036
+msgid "Пароль:"
+msgstr "Password:"
+
+#: ../../../application/views/scripts/smarty.c:1730
+msgid "Повтор пароля: "
+msgstr "Repeat password:"
+
+#: ../../../application/views/scripts/smarty.c:1733
+msgid "Тип:"
+msgstr "Type:"
+
+#: ../../../application/views/scripts/smarty.c:1748
+msgid "Ошибка"
+msgstr "Error"
+
+#: ../../../application/views/scripts/smarty.c:1751
+#: ../../../application/views/scripts/smarty.c:1790
+msgid "Полная версия"
+msgstr "Full version"
+
+#: ../../../application/views/scripts/smarty.c:1754
+#: ../../../application/views/scripts/smarty.c:1757
+#: ../../../application/views/scripts/smarty.c:1766
+msgid "Консильери"
+msgstr "Consiglieri"
+
+#: ../../../application/views/scripts/smarty.c:1763
+msgid "Поиск"
+msgstr "Search"
+
+#: ../../../application/views/scripts/smarty.c:1769
+msgid "Консильери «связи»"
+msgstr "Consiglieri \"CRM\""
+
+#: ../../../application/views/scripts/smarty.c:1775
+#: ../../../application/views/scripts/smarty.c:1793
+#: ../../../application/views/scripts/smarty.c:2033
+msgid "Пользователь:"
+msgstr "User:"
+
+#: ../../../application/views/scripts/smarty.c:1781
+#: ../../../application/views/scripts/smarty.c:1799
+msgid "запомнить меня"
+msgstr "remember me"
+
+#: ../../../application/views/scripts/smarty.c:1784
+#: ../../../application/views/scripts/smarty.c:1802
+#: ../../../application/views/scripts/smarty.c:1910
+msgid "Войти"
+msgstr "Enter"
+
+#: ../../../application/views/scripts/smarty.c:1787
+#: ../../../application/views/scripts/smarty.c:1805
+msgid "В CRM..."
+msgstr "in CRM..."
+
+#: ../../../application/views/scripts/smarty.c:1814
+msgid "Метки:"
+msgstr "Labels:"
+
+#: ../../../application/views/scripts/smarty.c:1823
+msgid "Не добавлено."
+msgstr "Not added."
+
+#: ../../../application/views/scripts/smarty.c:1826
+msgid ""
+"Загрузить\n"
+"историю"
+msgstr ""
+"Upload\n"
+"history"
+
+#: ../../../application/views/scripts/smarty.c:1844
+msgid "Вся история"
+msgstr "Entire history"
+
+#: ../../../application/views/scripts/smarty.c:1856
+msgid "Напоминания:"
+msgstr "Reminders:"
+
+#: ../../../application/views/scripts/smarty.c:1859
+#: ../../../application/views/scripts/smarty.c:1874
+msgid "Нет напоминаний."
+msgstr "No reminders:"
+
+#: ../../../application/views/scripts/smarty.c:1862
+#: ../../../application/views/scripts/smarty.c:1877
+msgid "Без даты"
+msgstr "Not dated"
+
+#: ../../../application/views/scripts/smarty.c:1865
+#: ../../../application/views/scripts/smarty.c:1880
+msgid "Помеченные"
+msgstr "Marked"
+
+#: ../../../application/views/scripts/smarty.c:1871
+msgid "Напоминания для"
+msgstr "Reminder for"
+
+#: ../../../application/views/scripts/smarty.c:1895
+msgid "Ничего не найдено."
+msgstr "Nothing found"
+
+#: ../../../application/views/scripts/smarty.c:1907
+#: ../../../application/views/scripts/smarty.c:2048
+msgid "Вы вышли из системы."
+msgstr "You have exited the system"
+
+#: ../../../application/views/scripts/smarty.c:1913
+#: ../../../application/views/scripts/smarty.c:1937
+msgid "ФИО:"
+msgstr "Surname, name"
+
+#: ../../../application/views/scripts/smarty.c:1919
+#: ../../../application/views/scripts/smarty.c:1943
+msgid "Коментарий:"
+msgstr "Comments:"
+
+#: ../../../application/views/scripts/smarty.c:1922
+#: ../../../application/views/scripts/smarty.c:1931
+msgid "Компания:"
+msgstr "Company:"
+
+#: ../../../application/views/scripts/smarty.c:1925
+#: ../../../application/views/scripts/smarty.c:1934
+#: ../../../application/views/scripts/smarty.c:1952
+msgid "Должность:"
+msgstr "Post:"
+
+#: ../../../application/views/scripts/smarty.c:1946
+msgid "Компании:"
+msgstr "Company:"
+
+#: ../../../application/views/scripts/smarty.c:1958
+msgid "Телефоны:"
+msgstr "Phone numbers:"
+
+#: ../../../application/views/scripts/smarty.c:1973
+msgid "изменить"
+msgstr "edit"
+
+#: ../../../application/views/scripts/smarty.c:1976
+msgid "удалить"
+msgstr "delete"
+
+#: ../../../application/views/scripts/smarty.c:1982
+#, c-format
+msgid "Компания %name"
+msgstr "Company %name"
+
+#: ../../../application/views/scripts/smarty.c:1985
+msgid "Реквизиты:"
+msgstr "Banking details:"
+
+#: ../../../application/views/scripts/smarty.c:2024
+msgid "Успешно."
+msgstr "Successful."
+
+#: ../../../application/views/scripts/smarty.c:2027
+msgid "В данный момент происходит обновление сайта!"
+msgstr "The site is being renewed!"
+
+#: ../../../application/views/scripts/smarty.c:2030
+msgid ""
+"Проcьба воздержаться от использования системы, до исчезновения данного "
+"сообщения."
+msgstr "Please refrain from using your system until this message dissapears."
+
+#: ../../../application/views/scripts/smarty.c:2051
+msgid "Изменить права доступа"
+msgstr "Change entry authorizations"
+
+#: ../../../application/views/scripts/smarty.c:2054
+msgid "Таблицы оптимизированы."
+msgstr "Tables have been optimized."
+
+#: ../../../application/views/scripts/smarty.c:2057
+msgid "Версия"
+msgstr "Version"
+
+#: ../../../application/views/scripts/smarty.c:2060
+msgid "сек"
+msgstr "sec"
+
+#: ../../../application/views/scripts/smarty.c:2063
+msgid "5 (средняя)"
+msgstr "5 (average)"
+
+#: ../../../application/views/scripts/smarty.php:359
+msgid ""
+"Метки позволяют классифицировать ваших клиентов, а также являются "
+"инструментом анализа вашей клиентской базы. Поставить метки клиенту можно "
+"при его создании и правке. Если вам не хватает каких-то категорий и меток, "
+"кликните %img вверху"
+msgstr ""
+"Labels allow you to classify your clients, and are a useful analysis tool "
+"for your client database. You can assign a label to a client when you create "
+"his card or edit it. If you are missing a category or label, please click on "
+"%img above"
+
+#: ../../../application/controllers/UsersController.php:50
+msgid "Пользователь или пароль не верен"
+msgstr "Login or password is incorrect"
+
+#: ../../../application/controllers/UsersController.php:72
+msgid "Превышено количество попыток входа, повторите попытку через 15 минут!"
+msgstr ""
+"You have exceeded the limit of allowed attempts, please try again in 15 "
+"minutes!"
+
+#: ../../../application/controllers/IndexController.php:93
+msgid "For upgrade your license please check our site dacons.ru"
+msgstr "For upgrade your license please check our site dacons.ru"
+
+#: ../../../application/controllers/PrinterController.php:138
+#: ../../../application/controllers/MainController.php:306
+msgid "все"
+msgstr "all"
+
+#: ../../../application/controllers/PrinterController.php:152
+#: ../../../application/controllers/MainController.php:339
+msgid "на букву"
+msgstr "starting with letter"
+
+#: ../../../application/controllers/PrinterController.php:171
+#: ../../../application/controllers/MainController.php:363
+msgid "любимые"
+msgstr "favourites"
+
+#: ../../../application/controllers/PrinterController.php:173
+#: ../../../application/controllers/MainController.php:365
+msgid "нелюбимые"
+msgstr "not so favourite"
+
+#: ../../../application/controllers/PrinterController.php:202
+msgid "Метка:"
+msgstr "Label:"
+
+#: ../../../application/controllers/PrinterController.php:208
+#: ../../../application/controllers/MainController.php:412
+msgid "избранное"
+msgstr "selected"
+
+#: ../../../application/controllers/ManagmentController.php:78
+#: ../../../application/controllers/CompaniesController.php:62
+msgid "Не введена компания"
+msgstr "You haven't entered the company"
+
+#: ../../../application/controllers/ManagmentController.php:85
+msgid ""
+"Слишком длинное название<br> Длина строки не должна превышать 25 символов"
+msgstr ""
+"The name <br>is too long. The lenght of the line cannot be more than 25 "
+"symbols"
+
+#: ../../../application/controllers/ManagmentController.php:183
+#: ../../../application/controllers/ManagmentController.php:486
+msgid "Имя пользователя %name уже занято!"
+msgstr "The user name %name has already been taken!"
+
+#: ../../../application/controllers/ManagmentController.php:188
+#: ../../../application/controllers/ManagmentController.php:491
+msgid "Имя пользователя не должно быть числом!"
+msgstr "User name cannot be a number!"
+
+#: ../../../application/controllers/ManagmentController.php:193
+#: ../../../application/controllers/ManagmentController.php:501
+msgid "Логин может содержать только буквы от a до z, цифры и знаки: _ -"
+msgstr "Login can only consist of letters from a to z, numbers and symbols:_ -"
+
+#: ../../../application/controllers/ManagmentController.php:198
+#: ../../../application/controllers/ManagmentController.php:496
+msgid "Тип не число"
+msgstr "Type is not a number"
+
+#: ../../../application/controllers/ManagmentController.php:204
+msgid "Введите пользователя"
+msgstr "Enter user"
+
+#: ../../../application/controllers/ManagmentController.php:209
+#: ../../../application/controllers/ManagmentController.php:507
+msgid "Введите имя"
+msgstr "Enter name"
+
+#: ../../../application/controllers/ManagmentController.php:215
+#: ../../../application/controllers/ManagmentController.php:513
+#: ../../../application/controllers/CompaniesController.php:55
+msgid "Не верный email"
+msgstr "Incorrect email"
+
+#: ../../../application/controllers/ManagmentController.php:232
+#: ../../../application/controllers/CompaniesController.php:78
+msgid "Не введен пароль"
+msgstr "You haven't entered the password"
+
+#: ../../../application/controllers/ManagmentController.php:340
+msgid "Компания передана от %manager к %new_manager (%executer)"
+msgstr ""
+"The company has been trasfered from  %manager to %new_manager (%executer)"
+
+#: ../../../application/controllers/MainController.php:361
+msgid "нейтральные"
+msgstr "neutral"
+
+#: ../../../application/controllers/MainController.php:401
+#: ../../../application/controllers/MainController.php:1921
+msgid "Метка"
+msgstr "Label"
+
+#: ../../../application/controllers/MainController.php:727
+msgid "Не выбрано"
+msgstr "Not selected"
+
+#: ../../../application/controllers/MainController.php:1396
+#: ../../../application/controllers/MainController.php:2300
+msgid "Компания %name уже существует!"
+msgstr "Company %name already exists!"
+
+#: ../../../application/controllers/MainController.php:2924
+msgid "Сжатие активно!"
+msgstr "Compression in progress!"
+
+#: ../../../application/controllers/MainController.php:2926
+msgid ""
+"Сжатие не активно!<br>Вас браузер не передает параметр: HTTP_ACCEPT_ENCODING"
+msgstr ""
+"Compression is not active!<br>Your browser does not support parameter: "
+"HTTP_ACCEPT_ENCODING"
+
+#: ../../../application/controllers/CompaniesController.php:66
+msgid "Не введен менеджер"
+msgstr "You haven't entered the manager"
+
+#: ../../../application/controllers/CompaniesController.php:70
+msgid "Не введен логин"
+msgstr "You haven't entered the login"
+
+#: ../../../application/controllers/CompaniesController.php:74
+msgid "Не введен часовой пояс"
+msgstr "You havent entered your time zone"
+
+#: ../../../application/controllers/CompaniesController.php:82
+msgid "Пароли не совпадают"
+msgstr "Passwords don't match"
+
+#: ../../../application/controllers/CompaniesController.php:86
+#: ../../../application/controllers/CompaniesController.php:274
+msgid "Не введен email"
+msgstr "You haven't entered the email"
+
+#: ../../../application/controllers/CompaniesController.php:92
+msgid "Логин не должен быть числом"
+msgstr "Login cannot be a number"
+
+#: ../../../application/controllers/CompaniesController.php:98
+msgid "Логин может содержать буквы от a до z, цифры и знаки: _ -"
+msgstr "Login can consist of letters from a to z, numbers and symbols: _ -"
+
+#: ../../../application/controllers/CompaniesController.php:105
+msgid "Компания уже есть в базе"
+msgstr "Company already exists in the database"
+
+#: ../../../application/controllers/CompaniesController.php:112
+msgid "Логин уже занят"
+msgstr "Login has aleady been taken"
+
+#: ../../../application/controllers/CompaniesController.php:119
+msgid "Email уже есть в базе"
+msgstr "Email already exists in database"
+
+#: ../../../application/controllers/CompaniesController.php:190
+msgid "ABC-анализ"
+msgstr "ABC analysis"
+
+#: ../../../application/controllers/CompaniesController.php:191
+msgid "A"
+msgstr "A"
+
+#: ../../../application/controllers/CompaniesController.php:192
+msgid "B"
+msgstr "B"
+
+#: ../../../application/controllers/CompaniesController.php:193
+msgid "C"
+msgstr "C"
+
+#: ../../../application/controllers/CompaniesController.php:195
+msgid "Тип клиента"
+msgstr "Type of client"
+
+#: ../../../application/controllers/CompaniesController.php:196
+msgid "Перспективный"
+msgstr "Perspective"
+
+#: ../../../application/controllers/CompaniesController.php:197
+msgid "Пустышка"
+msgstr "Timewaster"
+
+#: ../../../application/controllers/CompaniesController.php:198
+msgid "Постоянный"
+msgstr "Constant"
+
+#: ../../../application/controllers/CompaniesController.php:199
+msgid "Имиджевый"
+msgstr "Image conscious"
+
+#: ../../../application/controllers/CompaniesController.php:200
+msgid "Прибыльный"
+msgstr "Profitable"
+
+#: ../../../application/controllers/CompaniesController.php:202
+msgid "Отрасль"
+msgstr "Branch"
+
+#: ../../../application/controllers/CompaniesController.php:203
+msgid "Реклама"
+msgstr "Advertising"
+
+#: ../../../application/controllers/CompaniesController.php:204
+msgid "Недвижимость"
+msgstr "Real estate"
+
+#: ../../../application/controllers/CompaniesController.php:205
+msgid "Услуги"
+msgstr "Services"
+
+#: ../../../application/controllers/CompaniesController.php:206
+msgid "Продукты питания"
+msgstr "Food products"
+
+#: ../../../application/controllers/CompaniesController.php:207
+msgid "Промышленность"
+msgstr "Industrial"
+
+#: ../../../application/controllers/CompaniesController.php:209
+msgid "Кроме клиентов"
+msgstr "Except clients"
+
+#: ../../../application/controllers/CompaniesController.php:210
+#: ../../../application/controllers/CompaniesController.php:216
+msgid "Партнеры"
+msgstr "Partners"
+
+#: ../../../application/controllers/CompaniesController.php:211
+#: ../../../application/controllers/CompaniesController.php:217
+msgid "Подрядчики"
+msgstr "Contractors"
+
+#: ../../../application/controllers/CompaniesController.php:212
+#: ../../../application/controllers/CompaniesController.php:218
+msgid "Поставщики"
+msgstr "Suppliers"
+
+#: ../../../application/controllers/CompaniesController.php:213
+#: ../../../application/controllers/CompaniesController.php:219
+msgid "Конкуренты"
+msgstr "Competitors"
+
+#: ../../../application/controllers/CompaniesController.php:215
+msgid "Откуда клиент"
+msgstr "Where is client from"
+
+#: ../../../application/controllers/CompaniesController.php:221
+msgid "Отношения"
+msgstr "Relationship"
+
+#: ../../../application/controllers/CompaniesController.php:222
+msgid ":-)"
+msgstr ":-)"
+
+#: ../../../application/controllers/CompaniesController.php:223
+msgid ":-("
+msgstr ":-("
+
+#: ../../../application/controllers/CompaniesController.php:258
+msgid "Неверный email"
+msgstr "Wrong email"
+
+#: ../../../application/controllers/CompaniesController.php:267
+msgid "Email не найден"
+msgstr "Email is not found"
+
+#: ../../../application/controllers/CompaniesController.php:293
+msgid ""
+"Пароль изменен! \n"
+"Логин: %login\n"
+"Новый пароль: %pass"
+msgstr ""
+"Password changed! \n"
+"Login: %login\n"
+"New password: %pass"
+
+#: ../../../application/controllers/CompaniesController.php:295
+msgid "Новый пароль"
+msgstr "New password"
+
+#: ../../../application/controllers/CompaniesController.php:320
+msgid "Регистрация в Консильери-связи"
+msgstr "Registration for Consiglieri CRM"
+
+#: ../../../application/controllers/MainpdaController.php:354
+msgid "Введите название события."
+msgstr "Enter name of event."
+
+#: ../../../application/controllers/SmsmailingController.php:166
+msgid "Номер\tКомпания\tЛицо\t\n"
+msgstr "Number\tCompany\tContact\t\n"
+
+#: ../../../application/controllers/ProfileController.php:25
+msgid "Пароль не может быть пустым"
+msgstr "Password cannot be empty"
+
+#: ../../../application/controllers/ProfileController.php:30
+msgid "Введенные пароли не совпадают"
+msgstr "Entered passwords do not match"
+
+#: ../../../application/controllers/BackupController.php:172
+msgid "[Строка %row] Некорректный e-mail компании\n"
+msgstr "[Row %row] Incorrect company email\n"
+
+#: ../../../application/controllers/BackupController.php:181
+msgid "[Строка %row] Компания \"%name\" уже существует\n"
+msgstr "[Row %row] Company \"%name\" already exists\n"
+
+#: ../../../application/controllers/BackupController.php:206
+msgid "[Строка %row] Некорректный e-mail контактного лица (%name)\n"
+msgstr "[Row %row] Incorrect e-mail for contact person (%name)\n"
+
+#: ../../../application/controllers/BackupController.php:209
+msgid "день рождения"
+msgstr "birthday"
+
+#: ../../../application/controllers/BackupController.php:230
+msgid "Не определен менеджер, ведущий компании.\n"
+msgstr "A manager has not been assigned to this company.\n"
+
+#: ../../../application/controllers/BackupController.php:238
+msgid ""
+"Внимание! Дождитесь завершения процесса, не закрывайте окно!<BR>\n"
+"                     Обработаны строчки %from......%to (из %all всего)"
+msgstr ""
+"Attention! Please wait for the process to finish, don't close window!<BR>\n"
+" Processed rows %from......%to (from %all total)"
+
+#: ../../../application/controllers/BackupController.php:240
+#, php-format
+msgid "Ошибок в файле: %count"
+msgstr "Errors in file: %count"
+
+#: ../../../application/controllers/BackupController.php:257
+msgid ""
+"Импорт завершён. Обработано %all строк. <br>Добавлено новых компаний: %new "
+"<br>"
+msgstr ""
+"Import has been completed. Processed %all rows. <br>Added new companies: "
+"%new <br>"
+
+#: ../../../application/controllers/BackupController.php:259
+#, php-format
+msgid "Ошибок в файле: %err"
+msgstr "Errors in file: %err"
+
+#: ../../../application/controllers/BackupController.php:259
+msgid "Скачать лог ошибок."
+msgstr "Download error log"
+
+#: ../../../application/controllers/BackupController.php:260
+msgid "Теперь можно закрыть окно."
+msgstr "Now you can close the window."
+
+#: ../../../dumper/dumper.php:122
+msgid "Не удалось создать каталог для бекапа"
+msgstr "It was not possible to create a catalogue for the back-up"
+
+#: ../../../dumper/dumper.php:182 ../../../dumper/dumper.php:374
+msgid "Скачать файл"
+msgstr "Download file"
+
+#: ../../../dumper/dumper.php:183
+msgid "Создается резервная копия БД"
+msgstr "A back-up copy of the database is creating"
+
+#: ../../../dumper/dumper.php:212 ../../../dumper/dumper.php:390
+msgid "ОШИБКА! Не указана база данных!"
+msgstr "ERROR! No database is indicated!"
+
+#: ../../../dumper/dumper.php:216 ../../../dumper/dumper.php:394
+#, php-format
+msgid "Подключение к БД `%dbname`."
+msgstr "Connecting to database `%dbname`."
+
+#: ../../../dumper/dumper.php:217 ../../../dumper/dumper.php:395
+msgid "Не удается выбрать базу данных."
+msgstr "It is not possible to select a database."
+
+#: ../../../dumper/dumper.php:272
+msgid "Создание файла с резервной копией БД:"
+msgstr "Creating file containing back-up copy of database:"
+
+#: ../../../dumper/dumper.php:279 ../../../dumper/dumper.php:289
+#: ../../../dumper/dumper.php:434 ../../../dumper/dumper.php:505
+msgid "Неудается изменить кодировку соединения."
+msgstr "It is not possible to change the code of the connection."
+
+#: ../../../dumper/dumper.php:290 ../../../dumper/dumper.php:435
+#: ../../../dumper/dumper.php:506 ../../../dumper/dumper.php:524
+#: ../../../dumper/dumper.php:533
+#, php-format
+msgid "Установлена кодировка соединения `%encode`."
+msgstr "The coding of connection has been established `%encode`."
+
+#: ../../../dumper/dumper.php:294 ../../../dumper/dumper.php:510
+msgid "Кодировка соединения и таблицы не совпадает:"
+msgstr "Coding of the connection and table do not match:"
+
+#: ../../../dumper/dumper.php:298
+msgid "Обработка таблицы `%table`"
+msgstr "processing table `%table`"
+
+#: ../../../dumper/dumper.php:368
+#, php-format
+msgid "Резервная копия БД `%db` создана."
+msgstr "back-up copy of database `%db` has been created."
+
+#: ../../../dumper/dumper.php:369
+#, php-format
+msgid "Размер БД:       %size МБ"
+msgstr "Size of database:  %size MB"
+
+#: ../../../dumper/dumper.php:370
+#, php-format
+msgid "%size МБ"
+msgstr "%size MB"
+
+#: ../../../dumper/dumper.php:371
+msgid "Размер файла:"
+msgstr "Size of file:"
+
+#: ../../../dumper/dumper.php:372
+msgid "Таблиц обработано:"
+msgstr "Tables processed:"
+
+#: ../../../dumper/dumper.php:373
+msgid "Строк обработано:"
+msgstr "Rows processed:"
+
+#: ../../../dumper/dumper.php:381
+msgid "Восстановление БД из резервной копии"
+msgstr "Database restoration from back-up copy"
+
+#: ../../../dumper/dumper.php:410
+msgid "ОШИБКА! Файл не найден!"
+msgstr "ERROR! File not found!"
+
+#: ../../../dumper/dumper.php:414
+#, php-format
+msgid "Чтение файла `%filename`."
+msgstr "Reading file `%filename`."
+
+#: ../../../dumper/dumper.php:418
+msgid "ОШИБКА! Не выбран файл!"
+msgstr "ERROR! File not selected!"
+
+#: ../../../dumper/dumper.php:457 ../../../dumper/dumper.php:529
+msgid "Таблица `%table`."
+msgstr "Table `%table`."
+
+#: ../../../dumper/dumper.php:545
+msgid "Неправильный запрос."
+msgstr "Invalid enquiry."
+
+#: ../../../dumper/dumper.php:558
+msgid "БД восстановлена из резервной копии."
+msgstr "Database restored from back-up copy."
+
+#: ../../../dumper/dumper.php:559
+msgid "Дата создания копии:"
+msgstr "Date of copy creation:"
+
+#: ../../../dumper/dumper.php:560
+msgid "Запросов к БД:"
+msgstr "Enquries in databse:"
+
+#: ../../../dumper/dumper.php:561
+msgid "Таблиц создано:"
+msgstr "Tables created:"
+
+#: ../../../dumper/dumper.php:562
+msgid "Строк добавлено:"
+msgstr "Rows added:"
+
+#: ../../../dumper/dumper.php:576
+msgid "максимальная"
+msgstr "maximum"
+
+#: ../../../dumper/dumper.php:576
+msgid "средняя"
+msgstr "average"
+
+#: ../../../dumper/dumper.php:576
+msgid "минимальная"
+msgstr "minimum"
+
+#: ../../../dumper/dumper.php:576 ../../../dumper/dumper.php:584
+#: ../../../dumper/dumper.php:586
+msgid "Без сжатия"
+msgstr "Without compression"
+
+#: ../../../dumper/dumper.php:597 ../../../dumper/dumper.php:599
+msgid "Применить"
+msgstr "Apply"
+
+#: ../../../dumper/dumper.php:597
+msgid ""
+"Внимание! После восстановления базы данных вы потеряете все изменения, "
+"сделанные с момента бэкапа! Вы уверены, что хотите сделать восстановление?"
+msgstr ""
+"Attention! If you restore the database, you will loose any changes modifed "
+"after backing up! Are you certain that you want to proceed with restoration?"
+
+#: ../../../dumper/dumper.php:846
+msgid "Backup / Создание резервной копии БД"
+msgstr "Backup / Create a reserve copy of the database"
+
+#: ../../../dumper/dumper.php:864
+msgid "Метод сжатия:"
+msgstr "Method of compression:"
+
+#: ../../../dumper/dumper.php:875
+msgid "Степень сжатия:"
+msgstr "Level of compression:"
+
+#: ../../../dumper/dumper.php:889
+msgid "Restore / Восстановление БД из резервной копии"
+msgstr "Restore / Restore the database from reserve copy"
+
+#: ../../../dumper/dumper.php:929
+msgid "Статус таблицы:"
+msgstr "Table status:"
+
+#: ../../../dumper/dumper.php:933
+msgid "Общий статус:"
+msgstr "General status:"
+
+#: ../../../dumper/dumper.php:973
+msgid ""
+"Для работы Sypex Dumper Lite требуется:<BR> - Internet Explorer 5.5+, "
+"Mozilla либо Opera 8+"
+msgstr ""
+"For Sypex Dumper Lite to work you need:<BR> - Internet Explorer 5.5+, "
+"Mozilla or Opera 8+"
+
+#: ../../../dumper/dumper.php:973
+msgid "включено выполнение JavaScript скриптов"
+msgstr "JavaScript has been engaged"
+
+#: ../../../dumper/dumper.php:981
+msgid "Введите логин и пароль"
+msgstr "Enter login and password"
+
+#: ../../../dumper/dumper.php:1032
+msgid "У вас нет прав для просмотра этого каталога"
+msgstr "You dont have access to view this catalogue"
+
+#: ../../../dumper/dumper.php:1041
+msgid "Ошибка при подключении к БД"
+msgstr "Error when connecting to database"
+
+#: ../../../dumper/dumper.php:1057
+msgid "Возникла ошибка!</B>"
+msgstr "Error ocurred!</B>"
+
+#: ../../../incl/messages.php:8
+msgid "Название компании не может быть пустым."
+msgstr "Company name cannot be left empty."
+
+#: ../../../incl/messages.php:9
+#, php-format
+msgid "'%s' не является верным E-mail адресом"
+msgstr "'%s' is not a valid E-mail address"
+
+#: ../../../incl/messages.php:10
+#, php-format
+msgid "'%s' не число"
+msgstr "'%s' is not a number"
+
+#: ../../../incl/multiple.php:17
+msgid "коментарий"
+msgstr "comment"
+
+#: ../../../incl/multiple.php:17
+msgid "коментария"
+msgstr "comment"
+
+#: ../../../incl/multiple.php:17
+msgid "коментариев"
+msgstr "comments"
+
+#: ../../../incl/month.php:8 ../../../incl/month.php:21
+msgid "января"
+msgstr "January"
+
+#: ../../../incl/month.php:9 ../../../incl/month.php:22
+msgid "февраля"
+msgstr "February"
+
+#: ../../../incl/month.php:10 ../../../incl/month.php:23
+msgid "марта"
+msgstr "March"
+
+#: ../../../incl/month.php:11 ../../../incl/month.php:24
+msgid "апреля"
+msgstr "April"
+
+#: ../../../incl/month.php:12 ../../../incl/month.php:25
+msgid "мая"
+msgstr "May"
+
+#: ../../../incl/month.php:13 ../../../incl/month.php:26
+msgid "июня"
+msgstr "June"
+
+#: ../../../incl/month.php:14 ../../../incl/month.php:27
+msgid "июля"
+msgstr "July"
+
+#: ../../../incl/month.php:15 ../../../incl/month.php:28
+msgid "августа"
+msgstr "August"
+
+#: ../../../incl/month.php:16 ../../../incl/month.php:29
+msgid "сентября"
+msgstr "September"
+
+#: ../../../incl/month.php:17
+msgid "октября"
+msgstr "October"
+
+#: ../../../incl/month.php:18
+msgid "ноября"
+msgstr "November"
+
+#: ../../../incl/month.php:19
+msgid "декабря"
+msgstr "December"
+
+#: ../../../incl/month.php:31 ../../../incl/month.php:43
+msgid "январь"
+msgstr "January"
+
+#: ../../../incl/month.php:32 ../../../incl/month.php:44
+msgid "февраль"
+msgstr "February"
+
+#: ../../../incl/month.php:33 ../../../incl/month.php:45
+msgid "март"
+msgstr "March"
+
+#: ../../../incl/month.php:34 ../../../incl/month.php:46
+msgid "апрель"
+msgstr "April"
+
+#: ../../../incl/month.php:35 ../../../incl/month.php:47
+msgid "май"
+msgstr "May"
+
+#: ../../../incl/month.php:36 ../../../incl/month.php:48
+msgid "июнь"
+msgstr "June"
+
+#: ../../../incl/month.php:37 ../../../incl/month.php:49
+msgid "июль"
+msgstr "July"
+
+#: ../../../incl/month.php:38 ../../../incl/month.php:50
+msgid "август"
+msgstr "August"
+
+#: ../../../incl/month.php:39 ../../../incl/month.php:51
+msgid "сентябрь"
+msgstr "September"
+
+#: ../../../incl/month.php:40
+msgid "октябрь"
+msgstr "October"
+
+#: ../../../incl/month.php:41
+msgid "ноябрь"
+msgstr "November"
+
+#: ../../../incl/month.php:42
+msgid "декабрь"
+msgstr "December"
+
+#: ../../../functions.php:105
+msgid ""
+"id;Название;Телефоны;E-mail;Сайты;Адреса;Примечание;Реквизиты1;Реквизиты2;"
+"Реквизиты3;Реквизиты4;"
+msgstr ""
+"id;Name;Phone numbers;E-mail;Sites;Address;Note;Banking details1;Banking "
+"details2;Banking details3;Banking details4;"
+
+#: ../../../functions.php:170
+msgid "Контактное лицо"
+msgstr "Contact person"
+
+#: ../../../logging.php:42
+msgid "Нет такой директории..."
+msgstr "No such directory..."
+
+msgid "Скачать существущий дамп"
+msgstr "Download exisitng dump"
+
+msgid "Выбор файла:"
+msgstr "Choose file:"
+
+msgid "Скачать"
+msgstr "Download"
+
+msgid "или другой:"
+msgstr "or this:"
+
+msgid "ОШИБКА! Не известный формат файла!"
+msgstr "ERROR! Unknown file format!"
+
+msgid "ОШИБКА! Не удалось закачать файл!"
+msgstr "ERROR! Failure to upload file!"
+
+msgid "Компания %s успешно передана менеджеру %s"
+msgstr "Company %s has been successfully transferred to manager %s"
+
+msgid "Удалили успешно!"
+msgstr "Deleted successful!"

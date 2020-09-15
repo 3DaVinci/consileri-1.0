@@ -1,0 +1,50 @@
+#Options +Includes +FollowSymLinks -Indexes
+#AddHandler server-parsed .shtml
+#DirectoryIndex index.shtml index.htm index.php index.html
+#AddDefaultCharset windows-1251
+#CookieTracking on
+#CookieExpires "1 years"
+
+# default php version is 4.3.9
+# uncomment next line to use latest 4.4.x
+#AddType application/x-httpd-php44 php
+# uncomment next line to use latest 5.x
+#AddType application/x-httpd-php5 php
+
+#php_value include_path .;includes/
+
+#php_value session.cookie_lifetime 864000
+
+#php_value session.save_path /www/n3davinci/sessions
+#php_value session.gc_maxlifetime 864000
+
+#php_flag magic_quotes_gpc 0
+#php_flag magic_quotes_runtime 0
+
+#php_flag zlib.output_compression On
+#php_flag zlib.output_compression_level -1
+
+
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteRule ^pi.php$ pi.php [L]
+RewriteRule ^ajax.php$ ajax.php [L]
+RewriteRule ^fancy.php$ fancy.php [L]
+RewriteRule ^install.php$ install.php [L]
+RewriteRule ^installer.php$ installer.php [L]
+RewriteRule ^revert_sql.php$ revert_sql.php [L]
+RewriteRule ^getkey.php$ getkey.php [L]
+RewriteRule ^conv.php$ conv.php [L]
+RewriteRule ^keys.php$ keys.php [L]
+RewriteRule ^packer.php$ packer.php [L]
+RewriteRule ^encoder.php$ encoder.php [L]
+RewriteRule ^packer-fin.php$ packer-fin.php [L]
+RewriteRule ^create_patch.php$ create_patch.php [L]
+RewriteRule ^dumper/(.*)$ dumper/$1 [L]
+RewriteRule ^exportdata/(.*)$ exportdata/$1 [L]
+RewriteRule ^importdata/(.*)$ importdata/$1 [L]
+
+RewriteRule ^create_holland.php$ create_holland.php [L]
+
+RewriteRule !\.(js|ico|gif|jpg|png|css|swf|htm|rar|zip|pdf)$ index.php

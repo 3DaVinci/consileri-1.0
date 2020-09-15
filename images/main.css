@@ -1,0 +1,306 @@
+body  {
+	background-color:#fff;	
+	font-family: Arial, "Times New Roman", Times;
+	font-size: 12px;
+	margin: 0px;
+	height: 100%;
+	color: #000;
+}
+
+#docbody {
+	color: #fff;
+	background-color:#000;		
+}
+
+html { height:100%; } 
+
+#content { padding-bottom:36px; }
+#content2 { padding-bottom:73px; }
+
+#footer {
+	height:36px;
+	background-color:#d7d7d7;	
+	margin-top:-36px;
+
+}
+
+#footer2 {
+	height:73px;
+	background-color:#f4f4f4;	
+	margin-top:-73px;
+}
+
+#wrapper { 
+	min-height:100%; 
+}
+
+#topMenu, #bottomMenu, #bottomMenu2  {
+	height: 27px;
+	background-color: #d7d7d7;
+	padding-left: 45px;
+	padding-top: 10px;
+	font-size: 12px;
+	font-family: arial;
+}
+
+#bottomMenu  {
+	padding-top: 14px;
+}
+
+#bottomMenu2  {
+	background-color:#f4f4f4;
+	padding-top: 17px;	
+}
+
+#sel{
+	background-color: #edb317;
+	color: #fff;
+	padding: 2px 7px 2px 7px;
+	font-size: 14px;
+}
+
+#bottomMenu2  #sel{
+	font-size: 12px;
+}
+#topMenu a, #bottomMenu a, #bottomMenu2 a{
+	color: #000;	
+	font-size: 12px;
+	font-family: arial;
+}
+
+#selFix {
+	padding-left: 7px;
+	color: #000;
+	font-size: 14px;
+}
+
+#nav {
+	color: #fff;
+	text-align: center;
+	font-size: 14px;	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+a img {
+	border: 0px;
+	position: relative;
+	top: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#reg {
+	text-align: left;
+	position: absolute;
+	right: 10px;
+	top: 18px;
+	font-size: 12px;		
+}
+
+#reg a {
+	color: #fff;
+}
+
+#logo2 {
+	background-image: url("logo2.jpg");
+	background-position: left top;
+	width: 311px;
+	height: 115px;
+}
+
+#regman {
+	background-image: url("regman.gif");
+	background-position: right top;
+	background-repeat: no-repeat;
+	padding: 48px 90px 0px 20px;
+	width: 105px;
+	height: 70px;
+	font-family: arial;
+	font-size: 11px;
+	text-align: left;
+}
+
+#regman a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #edb317;
+}
+
+#regman2 {
+	background-image: url("regman.gif");
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding: 48px 0px 0px 120px;
+	height: 70px;
+	font-size: 11px;
+	margin-top: 20px;
+}
+
+#leftBlock {
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+table tr td {
+	vertical-align: top;
+}
+
+#feedback {
+	background-color: #e4f8d1;
+	font-size: 11px;
+	width: 155px;
+	padding: 10px 15px 10px 15px;
+}
+
+#feedback a {
+	color:#0f8904;
+	font-weight: bold;
+}
+
+.color1 {
+	color: #0f8904;
+}
+
+h6 {
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+}
+
+
+#li1, #li2, #li3 {
+	background-image: url("pointer6.gif");
+	background-position: 6px 3px;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	padding-bottom: 5px;
+}
+
+#li3 {
+	background-image: url("pointer15.gif");
+	background-position: 6px 7px;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	padding-top: 3px;
+}
+
+#li2 {
+	background-image: url("pointer7.gif");
+}
+
+#line {
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #dcdcdc;
+	font-size: 1px;
+}
+
+#bottomSubMenu {
+	font-size: 11px;
+	font-family: tahoma;
+	padding-left: 45px;	
+}
+#bottomSubMenu a { 
+	color: #000;
+}
+
+#notinc {
+	background-color: #eeeeee;
+	padding: 14px 25px 14px 25px;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#common {
+	font-size: 14px;
+	padding: 15px 25px 15px 25px;
+	background-color: #f6f4e6;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#faq {
+	background-color: #eeeeee;
+	padding: 12px 17px 12px 17px;
+	font-weight: bold;
+}
+
+#infuture {
+	background-color:#f6f4e6;
+	padding: 10px 5px 5px 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.loginWrap {
+	font-size: 11px;
+	width: 391px;
+	height: 50px;
+	background-color: #f6f4e6;
+	padding: 8px 17px 12px 17px;
+	margin-top: 27px;
+}
+.loginWrap #user {
+	float: left;
+}
+
+.loginWrap #user input, .loginWrap #pass input{
+	width: 135px;
+	height: 14px;
+	font-size: 13px;
+}	
+	
+.loginWrap #pass {
+	float: left;
+	padding-left: 7px;
+}
+.loginWrap #btn {
+	float: right;
+	padding-top: 14px;
+}
+
+.loginWrap #btn a {
+	color: #000;
+}
+
+#enter {
+	width: 95px;
+	height: 20px;
+	background-color: #45cf0f;
+	border: 0px;
+	border-bottom: 1px solid #0f8904;
+	border-right: 1px solid #0f8904;	
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+
+* html #enter {
+	margin-bottom: 6px;
+}
+
+#remember, #subscribe {
+	position: relative;
+	top: 2px;
+}
+
+#developer {
+	background-image: url("dev.gif");
+	background-position: right 3px;
+	background-repeat: no-repeat;
+	padding-right: 45px;
+	width: 200px;
+	height: 34px;	
+	text-align: right;
+	color: #000;
+	padding-top: 5px;
+	position: relative;
+	top:-11px;
+}
+#developer a{
+	font-size: 12px;
+	color: #000;
+}
